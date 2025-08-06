@@ -1,6 +1,6 @@
 # Minimalist Hugo Template for Academic Websites
 
-# Trigger  
+<!-- trigger deploy -->
 
 This repository contains the source code to https://pascalmichaillat.org: an academic website created with Hugo, PaperMod, and GitHub Pages. The code is publicly available as a template repository so anyone can generate a new repository with the same directory structure and files, and quickly create their own academic website. The code might also be helpful to anyone who wishes to learn about Hugo or wants to recreate specific features of this website.
 
