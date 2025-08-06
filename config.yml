@@ -1,4 +1,4 @@
-baseURL: "https://mahla-shourian.github.io/" 
+baseURL: "/"
 title: Mahla Shourian
 paginate: 14
 theme: PaperMod
