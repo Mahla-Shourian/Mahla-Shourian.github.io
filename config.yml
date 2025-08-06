@@ -41,7 +41,7 @@ params:
         I am a Ph.D. Economics candidate at the University of Oklahoma - Norman. This fall, I will join the University of Wisconsin-La Crosse Department of Economics as an Assistant Professor of Economics.
 
         I am an applied microeconomist specializing in labor economics, economics of education, and health economics. My research examines how institutional policies and resources affect student outcomes in higher education, focusing on college costs, sports, and amenities. Additionally, I study public health policies, particularly investigating vaccination programs' impacts on maternal and infant health outcomes, and the relationship between substance legalization and healthcare decisions. My work has been recognized through multiple awards including the Southern Economic Association Graduate Student Award and the Dodge Family College of Arts and Sciences Dissertation Fellowship.
-    author: Ahmed El Fatmaoui
+    author: Mahla Shourian
     googleAnalyticsID: "G-WHEYZ77X40"
     DateFormat: "January 2024"
     defaultTheme: light
@@ -78,7 +78,7 @@ params:
           #imageHeight: 300
           imageWidth: 245
           imageHeight: 250
-          imageTitle: Ahmed El Fatmaoui
+          imageTitle: Mahla Shourian
           #imageTitle: "<span style='font-size: 12.5px;'>Ahmed El Fatmaoui</span>"
           buttons:
               - name: Teaching
