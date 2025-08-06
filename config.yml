@@ -64,7 +64,7 @@ params:
     math: true
     profileMode:
           enabled: true 
-          title: "<span style='font-size: 26px;'>Ahmed El Fatmaoui</span>"
+          title: "<span style='font-size: 26px;'>Mahla Shourian</span>"
           subtitle: |
                 <div style="margin-bottom: 0.2cm;"></div>
                 Welcome! 
@@ -79,7 +79,7 @@ params:
           imageWidth: 245
           imageHeight: 250
           imageTitle: Mahla Shourian
-          #imageTitle: "<span style='font-size: 12.5px;'>Ahmed El Fatmaoui</span>"
+          #imageTitle: "<span style='font-size: 12.5px;'>Mahla Shourian</span>"
           buttons:
               - name: Teaching
                 url: /courses/
