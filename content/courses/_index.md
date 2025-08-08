@@ -53,6 +53,7 @@ div.panel.show {
 </style>
 {{< /rawhtml >}}
 
+{{< rawhtml >}}
 
 <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Spring 2025, Fall 2022</i> <br><button class="accordion">
 Course Description
@@ -132,13 +133,4 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
-<!-- Default Statcounter code for Personal Website
-https://ahmedelfatmaoui.github.io/ -->
-<script type="text/javascript">
-var sc_project=12988052; 
-var sc_invisible=1; 
-var sc_security="0346b3d7"; 
-</script>
-<script type="text/javascript"
-<!-- End of Statcounter Code -->
-
+{{< /rawhtml >}}
