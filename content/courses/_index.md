@@ -6,49 +6,53 @@ description: "Courses on statistics, microeconomics, and macroeconomics. For und
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+{{< rawhtml >}}
 <style>
 button.accordion {
-font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-cursor: pointer;
-padding: 0px;
-border: none;
-text-align: left;
-outline: none;
-font-size: 100%;
-transition: 0.3s;
-background-color: #f8f8f8;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  padding: 0px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 100%;
+  transition: 0.3s;
+  background-color: #f8f8f8;
 }
-button.accordion.active, button.accordion:hover {
-background-color: #f8f8f8;
+button.accordion.active,
+button.accordion:hover {
+  background-color: #f8f8f8;
 }
 button.accordion:after {
-content: " [+] ";
-font-size: 90%;
-color:#777;
-float: left;
-margin-left: 1px;
+  content: " [+] ";
+  font-size: 90%;
+  color:#777;
+  float: left;
+  margin-left: 1px;
 }
 button.accordion.active:after {
-content: " [\2212] ";
+  content: " [−] ";
 }
 div.panel {
-padding: 0 20px;
-margin-top: 5px;
-display: none;
-background-color: white;
-font-size: 100%;
+  padding: 0 20px;
+  margin-top: 5px;
+  display: none;
+  background-color: white;
+  font-size: 100%;
 }
 div.panel.show {
-display: block !important;
-}
-.semester-item {
-margin-bottom: 8px;
+  display: block !important;
 }
 .semester-label {
-font-weight: bold;
-color: #1976d2;
+  font-weight: bold;
+  color: #1976d2;
+}
+.semester-item {
+  margin-bottom: 8px;
 }
 </style>
+{{< /rawhtml >}}
+
 
 <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">Principles of Microeconomics (ECON 1123)</a> <br> <i>University of Oklahoma - Norman | Spring 2025, Fall 2022</i> <br><button class="accordion">
 Course Description
