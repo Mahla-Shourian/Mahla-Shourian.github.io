@@ -7,7 +7,6 @@ enableInlineShortcodes: true
 enableRobotsTXT: true  
 
 social:
-    twitter: mahlash
 
 taxonomies:
     tag: tags
@@ -98,19 +97,15 @@ params:
         - name: CV
           url: /cv.pdf
         - name: Email
-          url: mailto:aelfatmaoui@ou.edu
+          url: mailto:mahla.shourian@ou.edu
         - name: Location
           url: /location/
         # - name: Office Hours
         #   url: /officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=EdHxr3EAAAAJ&hl=en
         - name: GitHub
-          url: https://github.com/ahmedelfatmaoui?tab=repositories
+          url: https://github.com/mahla-shourian
         - name: Linkedin
-          url: https://www.linkedin.com/in/ahmed-el-fatmaoui-75114b330/
-        - name: Twitter
-          url: https://x.com/ahmedelfatmaoui
+          url: https://www.linkedin.com/in/mahla-shourian-709b782a1/
 
     assets:
         disableHLJS: true
@@ -119,7 +114,7 @@ params:
         hiddenInList: true # Set to true to hide cover images in paper
         hiddenInSingle: true
     label:
-      text: "Ahmed El Fatmaoui"
+      text: "Mahla Shourian"
       icon: /favicon.ico
       iconHeight: 18
 
