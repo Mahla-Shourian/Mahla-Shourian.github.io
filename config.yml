@@ -20,7 +20,7 @@ menu:
             url: /papers/
             weight: 2
           - name: CV
-            url: /cv.pdf
+            url: /cv_mahla_shourian.pdf
             weight: 3
         #   # weight: 1
         # - name: Design
@@ -98,7 +98,7 @@ params:
             #   url: https://pmichaillat.substack.com
     socialIcons:
         - name: CV
-          url: /cv.pdf
+          url: /cv_mahla_shourian.pdf
         - name: Email
           url: mailto:mahla.shourian@ou.edu
         - name: Location
