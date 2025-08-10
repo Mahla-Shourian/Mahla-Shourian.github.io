@@ -90,7 +90,7 @@ params:
                 url: /papers/
                 weight: 2
               - name: CV
-                url: /cv.pdf
+                url: /cv_mahla_shourian.pdf
                 weight: 3
               # - name: Design
               #   url: /design/
