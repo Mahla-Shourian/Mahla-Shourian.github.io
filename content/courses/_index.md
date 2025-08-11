@@ -14,9 +14,9 @@ _Semesters taught:_ Summer 2023
 
 ## Teaching Assistant & Guest Lecturer
 
-- Labor Economics I (ECON 6433), doctoral-level course, University of Oklahoma  
 - Intermediate Microeconomic Theory (ECON 3113), University of Oklahoma  
-- Labor Problems (ECON 3513), University of Oklahoma  
+- Labor Problems (ECON 3513), University of Oklahoma
+- Labor Economics I (ECON 6433), doctoral-level course, University of Oklahoma  
 - The Economics of Discrimination (ECON 4513), University of Oklahoma  
 - Introduction to Applied Econometrics (ECON 4233), University of Oklahoma  
 - Econometrics II (ECON 5243), doctoral-level course, University of Oklahoma
