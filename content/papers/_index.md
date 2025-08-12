@@ -4,12 +4,10 @@ aliases: /papers/
 description: "Working Papers by Mahla Shourian"
 ---
 
+My research focus is applied microeconomics, with a focus on labor, public, and health economics. Specifically, my work lies at the intersection of labor economics, economics of the family, and public policy, with a central interest in how economic and policy environments shape household decisions, labor market outcomes, and gender inequality.
+
 ## Working Papers
 
-My research focus is applied microeconomics, with a focus on labor, public, and health economics. Specifically,
-my work lies at the intersection of labor economics, economics of the family, and public policy, with a
-central interest in how economic and policy environments shape household decisions, labor market outcomes,
-and gender inequality.
 
 ### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf)
 **Co‑author:** Pallab Ghosh  
