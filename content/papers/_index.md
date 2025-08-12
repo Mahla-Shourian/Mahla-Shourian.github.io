@@ -6,6 +6,11 @@ description: "Working Papers by Mahla Shourian"
 
 ## Working Papers
 
+My research focus is applied microeconomics, with a focus on labor, public, and health economics. Specifically,
+my work lies at the intersection of labor economics, economics of the family, and public policy, with a
+central interest in how economic and policy environments shape household decisions, labor market outcomes,
+and gender inequality.
+
 ### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf)
 **Co‑author:** Pallab Ghosh  
 **Status:** Job Market Paper  
@@ -26,7 +31,7 @@ description: "Working Papers by Mahla Shourian"
 
 ---
 
-### [Power of Public Health Advice: Effectiveness and Spillover Effects of Federal Vaccine Recommendations](/Shourian_Zhao_ElFatmaoui_Ghosh_Lor_VaccineRecommendations.pdf)
+### [Power of Public Health Advice: Effectiveness and Spillover Effects of Federal Vaccine Recommendations]
 **Co‑authors:** Junying Zhao, Ahmed El Fatmaoui, Pallab Ghosh, Bethanie Lor  
 **Status:** Under review at *Public Health in Practice*  
 <details>
@@ -36,7 +41,7 @@ description: "Working Papers by Mahla Shourian"
 
 ---
 
-### [From Mother to Daughter: Policy Influences on Teenage Pregnancy](/Shourian_Ghosh_TeenagePregnancy.pdf)
+### [From Mother to Daughter: Policy Influences on Teenage Pregnancy]
 **Co‑author:** Pallab Ghosh  
 <details>
   <summary>Abstract [+]</summary>
