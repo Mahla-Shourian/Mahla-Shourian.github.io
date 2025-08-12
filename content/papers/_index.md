@@ -1,95 +1,44 @@
 ---
-title: ""
+title: "Research"
 aliases: /papers/
-description: "Research Papers"
+description: "Working Papers by Mahla Shourian"
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+## Working Papers
 
-<style>
-button.accordion {
-font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-cursor: pointer;
-padding: 0px;
-border: none;
-text-align: left;
-outline: none;
-font-size: 100%;
-transition: 0.3s;
-background-color: #f8f8f8;
-}
-button.accordion.active, button.accordion:hover {
-background-color: #f8f8f8;
-}
-button.accordion:after {
-content: " [+] ";
-font-size: 90%;
-color:#777;
-float: left;
-margin-left: 1px;
-}
-button.accordion.active:after {
-content: " [\2212] ";
-}
-div.panel {
-padding: 0 20px;
-margin-top: 5px;
-display: none;
-background-color: white;
-font-size: 100%;
-}
-div.panel.show {
-display: block !important;
-}
-</style>
+### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf)
+**Co‑author:** Pallab Ghosh  
+**Status:** Job Market Paper  
+<details>
+  <summary>Abstract [+]</summary>
+  <p>Over the past several decades, U.S. fertility rates have steadily fallen while female-to-male relative wages have risen. This paper investigates whether these two trends are causally linked by examining how exogenous changes in women’s potential wages relative to men’s affect fertility decisions. I use a Bartik-style shift-share instrument to construct a measure of potential wages that captures long-term labor market opportunities while addressing endogeneity concerns inherent in observed earnings. The analysis focuses on women of childbearing age across U.S. states from 1980 to 2010, using Census and ACS data. The results show that increases in women’s relative potential wages lead to lower fertility, delayed age at first birth, and a higher likelihood of single motherhood. These patterns are consistent with several economic mechanisms, including shifts in marriage market dynamics, increased opportunity costs of motherhood, and changes in household bargaining power.
+</p>
+</details>
 
-<h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a><i class="fas fa-book-open" style="color: #2e7d32; margin-right: 8px;"></i>Published &amp; Forthcoming Papers</h2>
+---
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/vax_paper.pdf">What Spurs Production and Innovation in the Vaccine Industry? Insights from Policy Interventions in the US</a> <br> with Myongjin Kim, Firat Demir, Qi Ge, Pallab Ghosh, and Junying Zhao <br> <i>Economics of Innovation and New Technology</i>, forthcoming <br><button class="accordion">Abstract</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This paper investigates the impact of supply- and demand-side policy interventions on firms' output and innovation. Leveraging a unique dataset on vaccine production and development, we evaluate the effectiveness of a tort reform, a supply-side policy intervention that reduces vaccine manufacturers' product liability, and a demand-side policy intervention, the expansion of Medicare coverage of select vaccine products. Our difference-in-differences analysis indicates that while both interventions result in significant increases in vaccine production, the impact of the demand-side policy can be 3-6 times greater in magnitude. There is also evidence suggesting that vaccine development responds exclusively to the demand-side policy.</p></div><p style="margin:0"><button class="accordion">Download</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/vax_paper.pdf">Paper</a></p></div><p style="margin:0"><button class="accordion">BibTeX citation</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>@article{kim_al2025vaccine,author = {Myongjin Kim and Firat Demir and Ahmed El Fatmaoui and Qi Ge and Pallab Ghosh and Junying Zhao},title = {What Spurs Production and Innovation in the Vaccine Industry? Insights from Policy Interventions in the US},journal = {Economics of Innovation and New Technology},year = {forthcoming},note = {Accepted for publication}}</code></pre></p></div><br>
+### [Children Who Witness: Early Life Exposure to Unilateral Divorce Laws and Intimate Partner Violence in Adulthood](/Shourian_Ghosh_ChildrenWhoWitness_UDL_IPV.pdf)
+**Co‑author:** Pallab Ghosh  
+<details>
+  <summary>Abstract [+]</summary>
+  <p>This study investigates the impact of early childhood exposure to unilateral divorce laws (UDL) as a framework for understanding childhood shocks and their influence on intimate partner violence (IPV) in adulthood. Using data from the National Crime Victimization Survey (NCVS) from 2000–2015, combined with state divorce regulations, we find that individuals aged 0–10 at the time of the reforms are 0.18 percentage points more likely to experience IPV in adulthood than older cohorts and those in states without UDL. Additionally, we examine how childhood exposure to UDL influences IPV victimization through its effects on education and employment outcomes.</p>
+</details>
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://onlinelibrary.wiley.com/doi/full/10.1111/ecin.13225">From High School to Higher Education: Is Recreational Marijuana a Consumption Amenity for US College Students?</a> <br> Ahmed El Fatmaoui <br> <i>Economic Inquiry</i>, 2024 <br><button class="accordion">Abstract</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This paper examines how recreational marijuana legalization (RML) affects first-time college enrollment in the US using a unique college-level dataset and various estimation methods such as difference-in-differences and event study. I find that RML increases enrollments by approximately up to 9%, without compromising degree completion or graduation rate, and it boosts college competitiveness by offering a positive amenity, as evidenced by the rise in out-of-state enrollments relative to neighboring states. In addition, I find no evidence that RML affects college prices, quality, or in-state enrollment. This effect is stronger for non-selective public colleges in early-adopting RML states.</p></div><p style="margin:0"><button class="accordion">Download</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/rm_paper.pdf">Paper</a> <br> <a href="https://www.openicpsr.org/openicpsr/project/198801/version/V2/view">Code and data</a> <br> <a href="/rm_present.pdf">Presentation slides</a></p></div><p style="margin:0"><button class="accordion">BibTeX citation</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>@article{elfatmaoui2024marijuana,author = {Ahmed El Fatmaoui},title = {From High School to Higher Education: Is Recreational Marijuana a Consumption Amenity for US College Students?},journal = {Economic Inquiry},year = {2024},doi = {10.1111/ecin.13225}}</code></pre></p></div><br>
+---
 
-<hr>
+### [Power of Public Health Advice: Effectiveness and Spillover Effects of Federal Vaccine Recommendations](/Shourian_Zhao_ElFatmaoui_Ghosh_Lor_VaccineRecommendations.pdf)
+**Co‑authors:** Junying Zhao, Ahmed El Fatmaoui, Pallab Ghosh, Bethanie Lor  
+**Status:** Under review at *Public Health in Practice*  
+<details>
+  <summary>Abstract [+]</summary>
+  <p>(here will be abstract)</p>
+</details>
 
-<h2><a id="working-papers" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a><i class="fas fa-file-alt" style="color: #1976d2; margin-right: 8px;"></i>Working Papers</h2>
+---
 
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="/job_market_paper.pdf">Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields</a> <br> Ahmed El Fatmaoui (2024) <br><button class="accordion">Abstract</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This study examines the differential impact of state appropriations on STEM and non-STEM degree completion at U.S. public four-year institutions. Using a panel dataset from 2003 to 2019 and a Bartik-style instrumental variables approach, I find that state funding disproportionately affects STEM degree completion, with little to no impact on Non-STEM degrees. A 10% increase in state appropriations leads to a 3.4% increase in STEM degrees conferred, primarily four years after the funding change. This effect is concentrated among male students, science STEM majors, and non-selective institutions. Increased state support leads to higher institutional spending, and more STEM programs–factors that impact STEM degree completion more than non-STEM fields.</p></div><p style="margin:0"><button class="accordion">Download</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><a href="/job_market_paper.pdf">Paper</a></p></div><p style="margin:0"><button class="accordion">BibTeX citation</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>@article{elfatmaoui2024dollars,author = {Ahmed El Fatmaoui},title = {Dollars and Degrees: The Asymmetric Impact of State Appropriations on STEM and Non-STEM Fields},year = {2024},note = {Working Paper}}</code></pre></p></div><br>
-
-<p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold">What is the Role of Sports at Elite Universities in the US?</a> <br> with Tyler Ransom <br><button class="accordion">Abstract</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Admissions at elite private universities in the United States are becoming increasingly competitive. As competition increases, seats become more and more scarce. This paper analyzes the population of athletes at all Division I NCAA institutions. Using publicly available data from the US Department of Education, the NCAA, and institutions' athletic rosters, we document several novel facts. First, elite institutions enroll more athletes and field more varsity teams than even the largest public institutions, despite having drastically smaller student bodies. To provide further context on the background of athletes at elite institutions, we supplement the institution-level analysis with individual-level data taken from publicly available athletic rosters. Finally, we analyze the effect of a hypothetical policy that would restrict student athletes at each universities to be less than a certain fraction of the overall student body.</p></div><p style="margin:0"><button class="accordion">BibTeX citation</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p><pre><code>@article{elfatmaoui_ransom2024sports,author = {Ahmed El Fatmaoui and Tyler Ransom},title = {What is the Role of Sports at Elite Universities in the US?},year = {2024},note = {Working Paper}}</code></pre></p></div><br>
-
-<hr>
-
-<h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a><i class="fas fa-clipboard-list" style="color: #1976d2; margin-right: 8px;"></i>Works in Progress</h2>
-
-<p style="margin:0"> <b>Language Diversity: Does Mother Tongue Affect School Achievement?</b> <br> Ahmed El Fatmaoui <br><button class="accordion">Abstract</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This study investigates the returns to mother tongue instruction, exploiting linguistic heterogeneity between Arabic and Berber languages in Morocco. Using a random 10% census sample of over 800,000 school-aged individuals, the analysis employs a probit model controlling for economic, demographic, and regional factors. Results indicate that speaking a different language from the medium of instruction reduces enrollment and completion probabilities by up to 3.5 percentage points. This effect concentrates among younger children (grades 1-6) and is minimal in regions with higher pre-school attendance. These findings contribute to the literature on human capital formation in multilingual contexts and inform educational policy in linguistically diverse societies.</p></div><br>
-
-<p style="margin:0"> <b>Marijuana and Demand for Vaccination</b> <br> with Pallab Ghosh and Myongjin Kim <br><button class="accordion">Abstract</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>We study how healthcare system interactions triggered by non-health policies can affect preventive health behavior. Leveraging staggered U.S. state-level rollouts of medical and recreational marijuana legalization from 2002–2020, we show that requiring physician/hospital visits under medical marijuana laws (MML) leads to a significant increase in flu vaccination uptake, while recreational marijuana laws (RML) which remove the healthcare access requirement do not so. This differential design allows us a clean decomposition of behavioral mechanisms: the increased vaccine uptake under MML is driven by doctor engagement rather than marijuana use per se. Using adverse event (AE) data, we further document a second "nested" channel: marijuana use reduces vaccine-related AE reports, likely by alleviating post-vaccination pain, thereby reducing vaccination aversion, which is not mechanical but behavioral mechanism. We decompose these two channels by utilizing the MML and RML variations. MML modestly increases AE reports through higher exposure, while RML reduces them, which is supported by rational inattention theory as well as the cost-effort model. We also explore heterogeneity across different racial groups, age groups, income and insurance coverage and find that the impact is even stronger for the specific racial group and for more insurance accessibility. Our results suggest that unrelated regulatory environments can generate meaningful spillovers in public health, and that low-cost provider interactions embedded in non-health policies may serve as effective nudges for preventive care.</p></div><br>
-
-<p style="margin:0"> <b>Balancing Tuition and Fees: Do Growing College Fees Affect Student Outcomes?</b> <br> Ahmed El Fatmaoui <br><button class="accordion">Abstract</button><div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>I investigate the relationship between tuition and fees at US public four-year universities, driven by tuition caps and freeze policies. I find that a one-dollar increase in tuition results in a 45 to 62 cent reduction in fees. This substitution effect arises from state-imposed tuition caps and freezes, which limit tuition increases and lead some institutions to raise or introduce new fees instead. Employing an instrumental variable approach with tuition restriction policies, I reveal that while the fee share has a negative but insignificant effect on first-time college enrollment, it significantly impacts STEM major completions. A 10 percentage point increase in fee share leads to a 1.6 percent decrease in STEM major awards, highlighting the differential effects of fees on various academic programs.</p></div><br>
-
-<script> 
-var acc = document.getElementsByClassName("accordion");
-var i;
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.parentNode.nextElementSibling.classList.toggle("show");
-  }
-}
-</script>
-
-<!-- Default Statcounter code for Personal Website
-https://ahmedelfatmaoui.github.io/ -->
-<script type="text/javascript">
-var sc_project=12988052; 
-var sc_invisible=1; 
-var sc_security="0346b3d7"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js" async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/12988052/0/0346b3d7/1/" alt="Web Analytics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
-
+### [From Mother to Daughter: Policy Influences on Teenage Pregnancy](/Shourian_Ghosh_TeenagePregnancy.pdf)
+**Co‑author:** Pallab Ghosh  
+<details>
+  <summary>Abstract [+]</summary>
+  <p> This study examines the intergenerational effects of teenage pregnancy by investigating whether a mother’s teenage pregnancy influences her daughter’s likelihood of becoming a teenage mother. Using an instrumental variables approach, I employ policy shocks such as unilateral divorce laws as instruments. These policy changes are assumed to have affected the likelihood of a mother’s teenage pregnancy but have no direct influence on the daughter’s pregnancy except through the mother’s experience. I use restricted data from the National Longitudinal Survey of Youth (NLSY79) and the NLSY79 Young Adult and Children datasets, which allow me to track the daughters of NLSY79 mothers and their teenage pregnancy outcomes. Preliminary results using the publicly available NLSY data show that having a mother who experienced teenage pregnancy increases the probability of the daughter also becoming a teenage mother by approximately 13.5 percentage points.</p>
+</details>
