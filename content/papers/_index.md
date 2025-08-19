@@ -26,7 +26,7 @@ description: "Working Papers by Mahla Shourian"
 
 ---
 
-### [From Mother to Daughter: Policy Influences on Teenage Pregnancy]
+### From Mother to Daughter: Policy Influences on Teenage Pregnancy
 **Co‑author:** Pallab Ghosh  
 <details>
   <summary>Abstract [+]</summary>
@@ -35,7 +35,7 @@ description: "Working Papers by Mahla Shourian"
 
 ---
 
-### [Power of Public Health Advice: Effectiveness and Spillover Effects of Federal Vaccine Recommendations]
+### Power of Public Health Advice: Effectiveness and Spillover Effects of Federal Vaccine Recommendations
 **Co‑authors:** Junying Zhao, Ahmed El Fatmaoui, Pallab Ghosh, Bethanie Lor  
 **Status:** Under review at *Public Health in Practice*  
 <details>
