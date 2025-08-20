@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 aliases: /courses/
-description: "Courses on statistics and microeconomics"
+description: "Courses on elements of statistics and microeconomics"
 ---
 
 {{< rawhtml >}}
