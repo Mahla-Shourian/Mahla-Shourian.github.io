@@ -5,14 +5,17 @@ description: "Courses taught by Mahla Shourian"
 
 
 [**Elements of Statistics (ECON 2843), University of Oklahoma**](https://ou-public.courseleaf.com/courses/econ/)  
-_Semesters taught:_ Fall 2023, Summer 2024, Fall 2024, Summer 2025   
-[View syllabus](/Syllabus_ECON_2843.pdf)
-[Course Reflection Survey: Summer (Synchronous video conf/remote)](/Stat_summer2024.pdf)
-[Course Reflection Survey: Fall (Asynchronous online)](/Stat_Fall2024.pdf)
+_Semesters taught:_ Fall 2023, Summer 2024, Fall 2024, Summer 2025  
+
+[View syllabus](/Syllabus_ECON_2843.pdf)  
+[Course Reflection Survey: Summer (Synchronous video conf/remote)](/Stat_summer2024.pdf)  
+[Course Reflection Survey: Fall (Asynchronous online)](/Stat_Fall2024.pdf)  
 
 [**Principles of Economics–Micro (ECON 1123), University of Oklahoma**](https://ou-public.courseleaf.com/courses/econ/)  
 _Semester taught:_ Summer 2023  
+
 [View syllabus](/Syllabus_ECON_1123.pdf)
+
 
 ---
 
