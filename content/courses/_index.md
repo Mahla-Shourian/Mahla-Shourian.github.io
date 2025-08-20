@@ -76,7 +76,7 @@ description: "Courses on elements of statistics and microeconomics"
     <a href="/Stat_Summer2025.pdf">Course Reflection Survey: Summer 2025</a>
   </div>
 
-  <hr>
+  
 
   <!-- Principles of Micro -->
   <h2>
