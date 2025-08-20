@@ -70,10 +70,10 @@ description: "Courses on statistics and microeconomics"
 
   <button class="accordion">Course Materials</button>
   <div class="panel materials">
-    <a href="/Syllabus_ECON_2843.pdf">View syllabus</a><br>
+    <a href="/Syllabus_ECON_2843.pdf">Syllabus</a><br>
     <a href="/Stat_summer2024.pdf">Course Reflection Survey: Summer 2024</a><br>
     <a href="/Stat_Fall2024.pdf">Course Reflection Survey: Fall 2024</a><br>
-    <a href="/Stat_summer2025.pdf">Course Reflection Survey: Summer 2025</a>
+    <a href="/Stat_Summer2025.pdf">Course Reflection Survey: Summer 2025</a>
   </div>
 
   <hr>
@@ -93,7 +93,7 @@ description: "Courses on statistics and microeconomics"
 
   <button class="accordion">Course Materials</button>
   <div class="panel materials">
-    <a href="/Syllabus_ECON_1123.pdf">View syllabus</a>
+    <a href="/Syllabus_ECON_1123.pdf">Syllabus</a>
   </div>
 
 </div>
@@ -112,3 +112,16 @@ description: "Courses on statistics and microeconomics"
   })();
 </script>
 {{< /rawhtml >}}
+
+
+---
+
+## Teaching Assistant and Guest Lecturer
+
+- Intermediate Microeconomic Theory (ECON 3113), University of Oklahoma  
+- Labor Problems (ECON 3513), University of Oklahoma
+- Labor Economics I (ECON 6433), doctoral-level course, University of Oklahoma 
+- The Economics of Discrimination (ECON 4513), University of Oklahoma  
+- Introduction to Applied Econometrics (ECON 4233), University of Oklahoma  
+- Econometrics II (ECON 5243), doctoral-level course, University of Oklahoma
+
