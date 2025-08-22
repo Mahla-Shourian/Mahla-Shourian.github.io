@@ -6,8 +6,7 @@ description: "Working Papers by Mahla Shourian"
 ## Working Papers
 
 
-### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf)
-**Co‑author:** Pallab Ghosh  
+### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf) 
 **Status:** Job Market Paper  
 <details>
   <summary>Abstract [+]</summary>
@@ -26,8 +25,7 @@ description: "Working Papers by Mahla Shourian"
 
 ---
 
-### From Mother to Daughter: Policy Influences on Teenage Pregnancy
-**Co‑author:** Pallab Ghosh  
+### From Mother to Daughter: Policy Influences on Teenage Pregnancy 
 <details>
   <summary>Abstract [+]</summary>
   <p> This study examines the intergenerational effects of teenage pregnancy by investigating whether a mother’s teenage pregnancy influences her daughter’s likelihood of becoming a teenage mother. Using an instrumental variables approach, I employ policy shocks such as unilateral divorce laws as instruments. These policy changes are assumed to have affected the likelihood of a mother’s teenage pregnancy but have no direct influence on the daughter’s pregnancy except through the mother’s experience. I use restricted data from the National Longitudinal Survey of Youth (NLSY79) and the NLSY79 Young Adult and Children datasets, which allow me to track the daughters of NLSY79 mothers and their teenage pregnancy outcomes. Preliminary results using the publicly available NLSY data show that having a mother who experienced teenage pregnancy increases the probability of the daughter also becoming a teenage mother by approximately 13.5 percentage points.</p>
