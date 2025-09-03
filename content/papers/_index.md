@@ -3,10 +3,11 @@ aliases: /papers/
 description: "Working Papers by Mahla Shourian"
 ---
 
-<div style="background-color:#eef6ff; padding:15px; border-radius:8px;">
 
+
+---
 ## 📄 Working Papers
-
+---
 
 ### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf) 
 **Status:** Job Market Paper  
@@ -38,18 +39,14 @@ description: "Working Papers by Mahla Shourian"
 </details>
 
 
+
+
+
 ---
----
-
-</div>
-
-<div style="background-color:#f8f9fa; padding:15px; border-radius:8px;">
-
-
-
 
 ## ✍️ Works in Progress
 
+---
 
 ### From Mother to Daughter: Policy Influences on Teenage Pregnancy 
 <details>
@@ -69,7 +66,7 @@ description: "Working Papers by Mahla Shourian"
 
 
 
-</div>
+
 
 
 
