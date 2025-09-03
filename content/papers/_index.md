@@ -1,3 +1,9 @@
+
+
+
+
+
+
 ---
 aliases: /papers/
 description: "Working Papers by Mahla Shourian"
@@ -5,9 +11,9 @@ description: "Working Papers by Mahla Shourian"
 
 
 
-## 📄 Working Papers
 
-<div style="background-color:#eef6ff; padding:15px; border-radius:8px;">
+## 📄 Working Papers
+---
 
 ### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf) 
 **Status:** Job Market Paper  
@@ -17,7 +23,8 @@ description: "Working Papers by Mahla Shourian"
 </p>
 </details>
 
----
+
+
 
 ### [Children Who Witness: Early Life Exposure to Unilateral Divorce Laws and Intimate Partner Violence in Adulthood](/Shourian_Ghosh_ChildrenWhoWitness_UDL_IPV.pdf)
 **Co‑author:** Pallab Ghosh  
@@ -26,7 +33,7 @@ description: "Working Papers by Mahla Shourian"
   <p>This study investigates the impact of early childhood exposure to unilateral divorce laws (UDL) as a framework for understanding childhood shocks and their influence on intimate partner violence (IPV) in adulthood. Using data from the National Crime Victimization Survey (NCVS) from 2000–2015, combined with state divorce regulations, we find that individuals aged 0–10 at the time of the reforms are 0.18 percentage points more likely to experience IPV in adulthood than older cohorts and those in states without UDL. Additionally, we examine how childhood exposure to UDL influences IPV victimization through its effects on education and employment outcomes.</p>
 </details>
 
----
+
 
 
 
@@ -40,17 +47,11 @@ description: "Working Papers by Mahla Shourian"
 
 
 
-</div>
-
-
-
 
 
 ## ✍️ Works in Progress
 
-<div style="background-color:#f8f9fa; padding:15px; border-radius:8px;">
-
-
+---
 
 ### From Mother to Daughter: Policy Influences on Teenage Pregnancy 
 <details>
@@ -58,7 +59,7 @@ description: "Working Papers by Mahla Shourian"
   <p> This study examines the intergenerational effects of teenage pregnancy by investigating whether a mother’s teenage pregnancy influences her daughter’s likelihood of becoming a teenage mother. Using an instrumental variables approach, I employ policy shocks such as unilateral divorce laws as instruments. These policy changes are assumed to have affected the likelihood of a mother’s teenage pregnancy but have no direct influence on the daughter’s pregnancy except through the mother’s experience. I use restricted data from the National Longitudinal Survey of Youth (NLSY79) and the NLSY79 Young Adult and Children datasets, which allow me to track the daughters of NLSY79 mothers and their teenage pregnancy outcomes. Preliminary results using the publicly available NLSY data show that having a mother who experienced teenage pregnancy increases the probability of the daughter also becoming a teenage mother by approximately 13.5 percentage points.</p>
 </details>
 
----
+
 
 
 
@@ -68,7 +69,7 @@ description: "Working Papers by Mahla Shourian"
   <p> The gender gap in higher education has reversed over the past several decades, with women now comprising a substantial majority of college graduates. This paper investigates the implications of this shift for marriage market dynamics by examining how the declining ratio of college-educated men to women affects marriage rates among college educated women. To estimate the causal impact, we implement an instrumental variable (IV) strategy that exploits variation in state-level funding cuts to public colleges, an exogenous shock that influenced gender-specific college enrollment patterns but is plausibly unrelated to marriage decisions. In the first stage, we use data from the Integrated Postsecondary Education Data System (IPEDS) to predict changes in the female-to-male college enrollment and completion ratios driven by these funding reductions. In the second stage, we link these predicted values to marriage outcomes using data from the American Community Survey (ACS) and the Current Population Survey (CPS). The findings indicate that a relative decline in the availability of similarly educated men significantly reduces marriage rates among college-educated women, highlighting how shifts in educational attainment can constrain partner availability and alter patterns of union formation.</p>
 </details>
 
-</div>
+
 
 
 
