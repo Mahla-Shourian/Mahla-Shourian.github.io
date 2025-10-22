@@ -12,6 +12,21 @@ description: "Working Papers by Mahla Shourian"
 
 
 
+## 📘 Published & Forthcoming Papers
+---
+
+
+### [Power of Public Health Advice: Effectiveness and Spillover Effects of Federal Vaccine Recommendations](https://www.sciencedirect.com/science/article/pii/S2666535225000862?via%3Dihub)
+**Co-authors:** Junying Zhao, Ahmed El Fatmaoui, Pallab Ghosh, Bethanie Lor  
+**Status:** Accepted for publication at *Public Health in Practice*  
+<details>
+  <summary>Abstract [+]</summary>
+  <p>This paper examines the effectiveness of a national, low-cost, demand-side vaccine policy—federal vaccine recommendations. We study the 2008 and 2010 influenza vaccine recommendations, the spillover effects of the 2009 H1N1 recommendation on influenza vaccination, and heterogeneous impacts across individual characteristics. Using 2004–2015 National Health Interview Survey data, policy effectiveness is estimated using Linear Probability Models and fixed effects. The 2008 and 2010 recommendations increased influenza vaccination by 20.9–26.5% among children and 5.2–6.6% among older adults. The 2009 H1N1 recommendation produced a positive spillover, raising influenza vaccination by 5.7–9.8% among younger adults. Despite these gains, vaccination rates remained lowest among the uninsured, low-income populations, racial and ethnic minorities, men, and adults with low education.</p>
+</details>
+
+
+
+
 ## 📄 Working Papers
 ---
 
@@ -34,16 +49,6 @@ description: "Working Papers by Mahla Shourian"
 </details>
 
 
-
-
-
-### [Power of Public Health Advice: Effectiveness and Spillover Effects of Federal Vaccine Recommendations](/Shourian_Zhao_ElFatmaoui_Ghosh_Lor_VaccineRecommendations.pdf)
-**Co-authors:** Junying Zhao, Ahmed El Fatmaoui, Pallab Ghosh, Bethanie Lor  
-**Status:** Revise & Resubmit at *Public Health in Practice*  
-<details>
-  <summary>Abstract [+]</summary>
-  <p>This paper examines the effectiveness of a national, low-cost, demand-side vaccine policy—federal vaccine recommendations. We study the 2008 and 2010 influenza vaccine recommendations, the spillover effects of the 2009 H1N1 recommendation on influenza vaccination, and heterogeneous impacts across individual characteristics. Using 2004–2015 National Health Interview Survey data, policy effectiveness is estimated using Linear Probability Models and fixed effects. The 2008 and 2010 recommendations increased influenza vaccination by 20.9–26.5% among children and 5.2–6.6% among older adults. The 2009 H1N1 recommendation produced a positive spillover, raising influenza vaccination by 5.7–9.8% among younger adults. Despite these gains, vaccination rates remained lowest among the uninsured, low-income populations, racial and ethnic minorities, men, and adults with low education.</p>
-</details>
 
 
 
