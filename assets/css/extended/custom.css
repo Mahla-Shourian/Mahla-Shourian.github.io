@@ -1,0 +1,65 @@
+/* ============================================================
+   Mahla Shourian — visual refresh (OU crimson accent)
+   Single override file; no theme files modified.
+   ============================================================ */
+
+:root {
+  --accent: #841617;        /* OU crimson */
+  --accent-dark: #6d1213;
+  --main-width: 760px;
+}
+
+/* ---- Typography: elegant serif headings, airier body ---- */
+h1, h2, h3, h4,
+.profile .profile_inner h1,
+.post-title,
+.paper-heading {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.profile .profile_inner h1 { font-size: 34px; padding: 6px 0; }
+
+.post-content { font-size: 17px; line-height: 1.72; }
+.post-content h2 { margin-top: 2.3rem; font-size: 1.5rem; }
+.post-content h3 { margin-top: 1.4rem; font-size: 1.18rem; }
+
+/* Short crimson rule under each section header (the markdown ---) */
+.post-content hr {
+  border: 0;
+  border-top: 2px solid var(--accent);
+  width: 64px;
+  margin: 4px 0 20px;
+}
+
+/* ---- Links in crimson ---- */
+.post-content a {
+  color: var(--accent);
+  box-shadow: 0 -1px 0 var(--accent) inset;
+}
+.post-content a:hover {
+  color: var(--accent-dark);
+  box-shadow: 0 -2px 0 var(--accent) inset;
+}
+.profile a { color: var(--accent); }
+
+/* ---- Header / nav ---- */
+.nav { background: var(--theme); border-bottom: 1px solid var(--border); }
+.logo a:hover, #menu a:hover { color: var(--accent); }
+
+/* ---- Profile buttons: crimson outline pills ---- */
+.button {
+  background: transparent;
+  border: 1.5px solid var(--accent);
+  border-radius: 999px;
+  margin: 8px 12px 8px 0;
+  padding: 6px 6px;
+  transition: all 0.15s ease;
+}
+.button-inner { color: var(--accent); font-weight: 500; }
+.button:hover { background: var(--accent); }
+.button:hover .button-inner { color: #fff; }
+
+/* ---- Social icons ---- */
+.social-icons a:hover { color: var(--accent); }
