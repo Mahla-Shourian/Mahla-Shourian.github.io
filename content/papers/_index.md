@@ -34,9 +34,10 @@ description: "Working Papers by Mahla Shourian"
 
 ### [When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions](/Shourian_2025_JMP_RelativeWages_Fertility.pdf) 
 **Status:** Job Market Paper  
+**Draft:** August 2026  
 <details>
   <summary>Abstract [+]</summary>
-  <p>This paper examines the impact of the narrowing US gender wage gap on fertility during 1980–2010, when women’s wages increased from under 50\% to over 65\% of men’s and fertility remained below the 2.1 replacement rate. To identify causal estimates, I use a Bartik-style shift–share measure of relative potential wages by interacting pre-1970 industry–occupation shares with current national wage growth, generating plausibly exogenous variation. Using IPUMS Census and ACS microdata for women of childbearing age across all U.S. states, I find that a 10 percentage point increase in the female-to-male potential wage ratio has the following effects: (i) lowers the motherhood rate by 4 percentage points, (ii) reduces the average number of children per woman by about 0.7, and (iii) delays first births by over three years. I also investigates several potential mechanisms and find that higher female relative wages reduce marriage rates, raise the opportunity cost of motherhood, weaken household specialization, and increase women’s bargaining power.
+  <p>This paper examines the impact of the narrowing US gender wage gap on fertility during 1980–2010, when women’s wages increased from under 50\% to over 65\% of men’s and fertility remained below the 2.1 replacement rate. To identify causal estimates, I use a Bartik-style shift–share measure of relative potential wages by interacting pre-1970 industry–occupation shares with current national wage growth, generating plausibly exogenous variation. Using IPUMS Census and ACS microdata for women of childbearing age across all U.S. states, I find that a 10 percentage point increase in the female-to-male potential wage ratio has the following effects: (i) lowers the motherhood rate by 4 percentage points, (ii) reduces the average number of children per woman by about 0.7, and (iii) delays first births by over three years. I also investigate several potential mechanisms and find that higher female relative wages reduce marriage rates, raise the opportunity cost of motherhood, weaken household specialization, and increase women’s bargaining power.
 </p>
 </details>
 
@@ -45,6 +46,7 @@ description: "Working Papers by Mahla Shourian"
 
 ### [Children Who Witness: Early Life Exposure to Unilateral Divorce Laws and Intimate Partner Violence in Adulthood](/Shourian_Ghosh_ChildrenWhoWitness_UDL_IPV.pdf)
 **Co‑author:** Pallab Ghosh  
+**Draft:** May 2026  
 <details>
   <summary>Abstract [+]</summary>
   <p>This study investigates the impact of early childhood exposure to unilateral divorce laws (UDL) as a framework for understanding childhood shocks and their influence on intimate partner violence (IPV) in adulthood. Using data from the National Crime Victimization Survey (NCVS) from 2000–2015, combined with state divorce regulations, we find that individuals aged 0–10 at the time of the reforms are 0.18 percentage points more likely to experience IPV in adulthood than older cohorts and those in states without UDL. Additionally, we examine how childhood exposure to UDL influences IPV victimization through its effects on education and employment outcomes.</p>
@@ -73,14 +75,39 @@ description: "Working Papers by Mahla Shourian"
 ### Educated and Alone? How Gender Imbalances in Higher Education Shape the Marriage Market 
 <details>
   <summary>Abstract [+]</summary>
-  <p> The gender gap in higher education has reversed over the past several decades, with women now comprising a substantial majority of college graduates. This paper investigates the implications of this shift for marriage market dynamics by examining how the declining ratio of college-educated men to women affects marriage rates among college educated women. To estimate the causal impact, we implement an instrumental variable (IV) strategy that exploits variation in state-level funding cuts to public colleges, an exogenous shock that influenced gender-specific college enrollment patterns but is plausibly unrelated to marriage decisions. In the first stage, we use data from the Integrated Postsecondary Education Data System (IPEDS) to predict changes in the female-to-male college enrollment and completion ratios driven by these funding reductions. In the second stage, we link these predicted values to marriage outcomes using data from the American Community Survey (ACS) and the Current Population Survey (CPS). The findings indicate that a relative decline in the availability of similarly educated men significantly reduces marriage rates among college-educated women, highlighting how shifts in educational attainment can constrain partner availability and alter patterns of union formation.</p>
+  <p> The gender gap in higher education has reversed over the past several decades, with women now comprising a substantial majority of college graduates. This paper investigates the implications of this shift for marriage market dynamics by examining how the declining ratio of college-educated men to women affects marriage rates among college-educated women. To estimate the causal impact, we implement an instrumental variable (IV) strategy that exploits variation in state-level funding cuts to public colleges, an exogenous shock that influenced gender-specific college enrollment patterns but is plausibly unrelated to marriage decisions. In the first stage, we use data from the Integrated Postsecondary Education Data System (IPEDS) to predict changes in the female-to-male college enrollment and completion ratios driven by these funding reductions. In the second stage, we link these predicted values to marriage outcomes using data from the American Community Survey (ACS) and the Current Population Survey (CPS). The findings indicate that a relative decline in the availability of similarly educated men significantly reduces marriage rates among college-educated women, highlighting how shifts in educational attainment can constrain partner availability and alter patterns of union formation.</p>
 </details>
 
 
+## 🎤 Conference Presentations
+
+---
+
+**2026 — *Educated and Alone? How Gender Imbalances in Higher Education Shape the Marriage Market***
+- WEAI 101st Annual Conference, Denver, CO
+- ASSA Annual Meeting, Philadelphia, PA
+
+**2025 — *When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions***
+- SEA 95th Annual Meeting, Tampa, FL
+- WEAI 100th Annual Conference, San Francisco, CA
+
+**2024 — *Children Who Witness: Early Life Exposure to Unilateral Divorce Laws and IPV in Adulthood***
+- SEA 94th Annual Meeting, Washington, D.C.
+- MVEA Annual Conference, Kansas City, MO
+- WEAI 99th Annual Conference, Seattle, WA
+- MEA 88th Annual Meeting, Chicago, IL
 
 
+## 📇 References
 
+---
 
-
-
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px 32px; max-width:820px; line-height:1.35;">
+  <div><strong>Pallab Ghosh</strong><br>Associate Professor<br>Department of Economics<br>University of Oklahoma<br><a href="mailto:pallab.ghosh@ou.edu">pallab.ghosh@ou.edu</a></div>
+  <div><strong>Firat Demir</strong><br>Interim Chair, David L. Boren Professor<br>Department of Economics<br>University of Oklahoma<br><a href="mailto:fdemir@ou.edu">fdemir@ou.edu</a></div>
+  <div><strong>Tyler Ransom</strong><br>Associate Professor<br>Department of Economics<br>University of Oklahoma<br><a href="mailto:ransom@ou.edu">ransom@ou.edu</a></div>
+  <div><strong>Joan Hamory</strong><br>Associate Professor<br>Department of Economics<br>University of Oklahoma<br><a href="mailto:jhamory@ou.edu">jhamory@ou.edu</a></div>
+  <div><strong>Nghiem Q. Huynh</strong><br>Assistant Professor<br>Department of Economics<br>University of Oklahoma<br><a href="mailto:nqh@ou.edu">nqh@ou.edu</a></div>
+  <div><strong>Samantha R. Johnson</strong> <span style="color:#666;">(Teaching)</span><br>Lecturer<br>Department of Economics<br>University of Oklahoma<br><a href="mailto:samrjohnson@ou.edu">samrjohnson@ou.edu</a></div>
+</div>
 

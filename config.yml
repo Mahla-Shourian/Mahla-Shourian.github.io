@@ -34,14 +34,8 @@ menu:
         #   weight: 4
 
 params:
-    description: |
-        Welcome! 
-        
-        I am a Ph.D. candidate in Economics at the University of Oklahoma, specializing in applied microeconomics with a focus on labor, public, and health economics.
-
-        Beyond these core areas, I’m deeply passionate about gender and family economics, including marriage markets, domestic violence, women’s labor market outcomes, and income inequality.
-
-        My research examines how narrowing the gender wage gap influences fertility decisions in the United States. I also study public health policies, particularly the effectiveness and spillover effects of federal vaccine recommendations.
+    description: "Mahla Shourian is a Ph.D. candidate in Economics at the University of Oklahoma studying labor, gender & family, and health economics. On the 2026–27 job market."
+    images: ["/mahla.jpg"]
 
 
     author: Mahla Shourian
@@ -75,6 +69,16 @@ params:
                 I am a Ph.D. candidate in Economics at the University of Oklahoma, specializing in applied microeconomics with a focus on labor, public, and health economics. Beyond these core areas, I’m deeply passionate about gender and family economics, including marriage markets, domestic violence, women’s labor market outcomes, and income inequality.
                 <div style="margin-bottom: 0.5cm;"></div>
                 My research examines how narrowing the gender wage gap influences fertility decisions in the United States. I also study public health policies, particularly the effectiveness and spillover effects of federal vaccine recommendations.   
+                <p style="margin:0;"><strong>I am on the 2026–27 economics job market and available for interviews.</strong></p>
+                <div style="margin-bottom: 0.25cm;"></div>
+                <p style="margin:0;"><strong>Fields:</strong> Labor, Gender &amp; Family Economics (primary); Public and Health Economics (secondary)</p>
+                <div style="margin-bottom: 0.4cm;"></div>
+                <div style="border:1px solid #e6e0e0; border-left:4px solid #841617; border-radius:6px; padding:12px 16px; background:#faf6f6;">
+                  <div style="font-size:0.78rem; letter-spacing:0.05em; text-transform:uppercase; color:#841617; font-weight:700; margin-bottom:4px;">Job Market Paper</div>
+                  <a href="/Shourian_2025_JMP_RelativeWages_Fertility.pdf" style="font-weight:600;">When the Marriage Market Fails: How Changes in Relative Wages Shape Childbearing Decisions</a>
+                  <p style="margin:6px 0 8px 0;">Using U.S. Census and ACS microdata with a shift–share design, I find that a narrowing gender wage gap significantly lowers women’s fertility, reduces marriage, and delays first births.</p>
+                  <a href="/Shourian_2025_JMP_RelativeWages_Fertility.pdf">Download JMP (PDF) →</a>
+                </div>
                 <div style="margin-bottom: 0.5cm;"></div>
           imageUrl: "/mahla.jpg"
           #imageWidth: 280
@@ -106,6 +110,8 @@ params:
           url: /location/
         # - name: Office Hours
         #   url: /officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=zOG02p8AAAAJ&hl=en
         - name: GitHub
           url: https://github.com/mahla-shourian
         - name: Linkedin
