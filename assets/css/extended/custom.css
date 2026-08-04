@@ -8,7 +8,8 @@
   --accent-dark: #6d1213;
   --muted: #565656;          /* calm neutral for icons/buttons */
   --muted-border: #cccccc;
-  --main-width: 760px;
+  --main-width: 880px;
+  --nav-width: 1060px;
 }
 
 /* ---- Typography: elegant serif headings, airier body ---- */
@@ -68,7 +69,8 @@ h1, h2, h3, h4,
 .social-icons a:hover { color: var(--accent); }
 
 /* ---- Homepage: two-column profile (photo left, about right) ---- */
-.profile .profile_inner { width: 100%; max-width: var(--main-width); }
+.main:has(.profile) { max-width: 1060px; }
+.profile .profile_inner { width: 100%; max-width: 1060px; }
 .profile-top {
   display: flex;
   gap: 34px;
