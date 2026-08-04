@@ -6,6 +6,8 @@
 :root {
   --accent: #841617;        /* OU crimson */
   --accent-dark: #6d1213;
+  --muted: #565656;          /* calm neutral for icons/buttons */
+  --muted-border: #cccccc;
   --main-width: 760px;
 }
 
@@ -42,7 +44,7 @@ h1, h2, h3, h4,
   color: var(--accent-dark);
   box-shadow: 0 -2px 0 var(--accent) inset;
 }
-.profile a { color: var(--accent); }
+.profile a { color: inherit; }
 
 /* ---- Header / nav ---- */
 .nav { background: var(--theme); border-bottom: 1px solid var(--border); }
@@ -51,17 +53,18 @@ h1, h2, h3, h4,
 /* ---- Profile buttons: crimson outline pills ---- */
 .button {
   background: transparent;
-  border: 1.5px solid var(--accent);
+  border: 1.5px solid var(--muted-border);
   border-radius: 999px;
   margin: 8px 12px 8px 0;
   padding: 6px 6px;
   transition: all 0.15s ease;
 }
-.button-inner { color: var(--accent); font-weight: 500; }
-.button:hover { background: var(--accent); }
-.button:hover .button-inner { color: #fff; }
+.button-inner { color: var(--muted); font-weight: 500; }
+.button:hover { background: #faf6f6; border-color: var(--accent); }
+.button:hover .button-inner { color: var(--accent); }
 
 /* ---- Social icons ---- */
+.social-icons a { color: var(--muted); }
 .social-icons a:hover { color: var(--accent); }
 
 /* ---- Homepage: two-column profile (photo left, about right) ---- */
