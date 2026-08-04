@@ -63,3 +63,31 @@ h1, h2, h3, h4,
 
 /* ---- Social icons ---- */
 .social-icons a:hover { color: var(--accent); }
+
+/* ---- Homepage: two-column profile (photo left, about right) ---- */
+.profile .profile_inner { width: 100%; max-width: var(--main-width); }
+.profile-top {
+  display: flex;
+  gap: 34px;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.profile-photo { flex: 0 0 230px; }
+.profile-photo img {
+  display: block;
+  width: 230px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.10);
+}
+.profile-about { flex: 1 1 320px; }
+.profile-about h1 { margin: 0 0 14px; padding: 0; }
+.profile-about span { display: block; }
+.profile-jmp { margin: 8px 0 22px; }
+
+@media (max-width: 680px) {
+  .profile-top { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .profile-photo { flex-basis: auto; }
+  .profile-photo img { width: 190px; }
+}
