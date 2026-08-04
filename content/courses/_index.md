@@ -89,9 +89,7 @@ description: "Courses on statistics and microeconomics"
 
 <div class="teach">
 
-  <div class="teach-top">
-    <div class="left">
-      <h2 class="sec">Courses Taught</h2>
+  <h2 class="sec">Courses Taught</h2>
       <div class="rule"></div>
       <table class="ctable">
         <thead>
@@ -105,12 +103,10 @@ description: "Courses on statistics and microeconomics"
           <tr><td>2023</td><td>Summer</td><td>ECON 1123: Principles of Microeconomics</td><td>24</td></tr>
         </tbody>
       </table>
-    </div>
 
-    <div class="right">
-      <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
-    </div>
-  </div>
+  <p style="margin: 1.6rem 0 0 0;">
+    <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
+  </p>
 
   <div class="upcoming">
     <strong>Upcoming Courses &mdash; In Person</strong>
