@@ -55,19 +55,16 @@ description: "Courses on statistics and microeconomics"
 
 <div class="teach">
 
-  <p style="margin:0 0 0.9rem 0;">
+  <p style="margin:0 0 1.1rem 0;">
     <a href="/Shourian_Teaching_Portfolio.pdf" style="display:inline-block; background:#841617; color:#fff; padding:6px 14px; border-radius:5px; font-weight:600; text-decoration:none;">📄 Teaching Portfolio</a>
-    <span style="color:#444;">&nbsp;— statement of teaching, evaluation summary, and syllabi</span>
   </p>
 
-  <div style="border:1px solid #e6e0e0; border-left:4px solid #841617; background:#faf6f6; border-radius:6px; padding:12px 16px; margin:0 0 1.2rem 0;">
-    <strong>Student Evaluation Highlights</strong> <span style="color:#666;">(ECON 2843, four terms, Fall 2023–Summer 2025)</span>
-    <p style="margin:6px 0 8px 0;">Ratings improved steadily across terms, with course-organization and student-learning-experience measures reaching 100% top ratings by Summer 2025.</p>
-    <div style="font-style:italic; color:#333; line-height:1.5;">
-      &ldquo;This course was honestly one of the best ones I have taken at OU.&rdquo;<br>
-      &ldquo;The Case Studies made a great impact&nbsp;&mdash;&nbsp;it allowed us to see and practice the material learned in the course in real time and in a realistic way (using Excel).&rdquo;<br>
-      &ldquo;Professor was easily accessible and really made an effort to make sure we understood lessons.&rdquo;
-    </div>
+  <div style="border:1px solid #e6e0e0; border-left:4px solid #841617; background:#faf6f6; border-radius:6px; padding:12px 16px; margin:0 0 1.4rem 0;">
+    <strong>Upcoming Courses &mdash; In Person</strong>
+    <ul style="margin:8px 0 0 0; padding-left:1.15rem; line-height:1.6;">
+      <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
+      <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
+    </ul>
   </div>
 
   <!-- Elements of Statistics -->
@@ -139,3 +136,21 @@ description: "Courses on statistics and microeconomics"
 - The Economics of Discrimination (ECON 4513), University of Oklahoma  
 - Introduction to Applied Econometrics (ECON 4233), University of Oklahoma  
 - Econometrics II (ECON 5243), doctoral-level course, University of Oklahoma
+
+---
+
+## What Students Say
+
+{{< rawhtml >}}
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:0.6rem;">
+  <blockquote style="margin:0; border:1px solid #eee; border-top:3px solid #841617; border-radius:8px; padding:16px 18px; background:#fafafa; font-style:italic; color:#333; line-height:1.55;">
+    &ldquo;This course was honestly one of the best ones I have taken at OU.&rdquo;
+  </blockquote>
+  <blockquote style="margin:0; border:1px solid #eee; border-top:3px solid #841617; border-radius:8px; padding:16px 18px; background:#fafafa; font-style:italic; color:#333; line-height:1.55;">
+    &ldquo;The Case Studies made a great impact&nbsp;&mdash;&nbsp;they allowed us to see and practice the material in real time and in a realistic way (using Excel).&rdquo;
+  </blockquote>
+  <blockquote style="margin:0; border:1px solid #eee; border-top:3px solid #841617; border-radius:8px; padding:16px 18px; background:#fafafa; font-style:italic; color:#333; line-height:1.55;">
+    &ldquo;Professor was easily accessible and really made an effort to make sure we understood lessons.&rdquo;
+  </blockquote>
+</div>
+{{< /rawhtml >}}
