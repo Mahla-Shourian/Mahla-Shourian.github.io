@@ -5,113 +5,178 @@ description: "Courses on statistics and microeconomics"
 ---
 
 {{< rawhtml >}}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
 <style>
-/* compact page rhythm */
-.teach { max-width: 820px; }
-.teach h2 { font-size: 1.35rem; margin: 0 0 0.15rem 0; }
-.teach .sub { font-style: italic; color: #444; margin: 0 0 0.6rem 0; }
+.teach { max-width: 100%; }
 
-/* accordion */
-.teach .accordion {
-  font: 0.95rem/1.4 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  cursor: pointer;
-  padding: 6px 10px;
-  border: none;
-  text-align: left;
-  outline: none;
-  background: #f4f4f4;
-  border-radius: 4px;
-  margin: 0.25rem 0;
+/* two-column top */
+.teach-top {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0.4rem 0 3rem 0;
+}
+.teach-top .left  { flex: 1 1 440px; min-width: 300px; }
+.teach-top .right { flex: 0 0 300px; }
+
+/* section rhythm */
+.teach section { margin: 3rem 0; }
+.teach .sec {
+  font-family: Georgia, "Palatino Linotype", Palatino, serif;
+  font-size: 1.5rem;
   font-weight: 600;
+  margin: 0 0 0.25rem 0;
 }
-.teach .accordion:hover,
-.teach .accordion.active { background: #ececec; }
-.teach .accordion::after {
-  content: " [+]";
-  font-size: 0.9rem;
-  color:#777;
-  float: right;
-}
-.teach .accordion.active::after { content: " [−]"; }
+.teach .rule { border: 0; border-top: 2px solid #841617; width: 64px; margin: 4px 0 1.3rem 0; }
 
+/* courses-taught table */
+.ctable { width: 100%; border-collapse: collapse; font-size: 0.96rem; }
+.ctable th {
+  text-align: left;
+  padding: 9px 12px;
+  border-bottom: 2px solid #841617;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.ctable td { padding: 9px 12px; border-bottom: 1px solid #ededed; }
+.ctable tr:last-child td { border-bottom: 0; }
+.ctable td:last-child, .ctable th:last-child { text-align: center; }
+
+/* portfolio button + upcoming box */
+.portfolio-btn {
+  display: inline-block;
+  background: #841617; color: #fff !important;
+  padding: 10px 18px; border-radius: 6px;
+  font-weight: 600; text-decoration: none;
+}
+.upcoming {
+  border: 1px solid #e6e0e0; border-left: 4px solid #841617;
+  background: #faf6f6; border-radius: 8px;
+  padding: 14px 16px; margin-top: 18px;
+}
+.upcoming ul { margin: 8px 0 0 0; padding-left: 1.15rem; line-height: 1.65; }
+
+/* course blocks */
+.teach .course { margin: 0 0 1.8rem 0; }
+.teach .course h3 { margin: 0 0 0.4rem 0; font-size: 1.15rem; }
+.teach .accordion {
+  font: 600 0.92rem/1.4 Lato, "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer; padding: 6px 10px; border: none; text-align: left;
+  background: #f4f4f4; border-radius: 4px; margin: 0.15rem 0;
+}
+.teach .accordion:hover, .teach .accordion.active { background: #ececec; }
+.teach .accordion::after { content: " [+]"; font-size: 0.9rem; color:#777; float: right; }
+.teach .accordion.active::after { content: " [\2212]"; }
 .teach .panel {
-  display: none;
-  background: #fff;
-  border-left: 3px solid #eee;
-  padding: 8px 12px;
-  margin: 0.25rem 0 0.5rem 0;
-  font-size: 0.95rem;
+  display: none; background: #fff; border-left: 3px solid #eee;
+  padding: 8px 12px; margin: 0.25rem 0 0.6rem 0; font-size: 0.95rem;
 }
 .teach .panel.show { display: block !important; }
+.teach .materials { margin-top: 0.55rem; font-size: 0.95rem; color: #555; }
+.teach .materials a { color: #841617; }
 
-/* link rows under materials */
-.teach .materials a { display: inline-block; margin: 2px 0; }
+/* TA list */
+.teach .talist { margin: 0.4rem 0 0.6rem 0; line-height: 1.9; }
+.teach .note { color: #777; font-size: 0.9rem; font-style: italic; }
 
-/* soft divider */
-.teach hr { border: 0; border-top: 1px solid #ececec; margin: 1.0rem 0; }
+/* student comment cards */
+.quote-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; margin-top: 0.4rem; }
+.qcard {
+  border: 1px solid #eee; border-top: 3px solid #841617; border-radius: 8px;
+  padding: 18px 20px; background: #fafafa; font-style: italic; color: #333; line-height: 1.55;
+}
 </style>
 
 <div class="teach">
 
-  <p style="margin:0 0 1.1rem 0;">
-    <a href="/Shourian_Teaching_Portfolio.pdf" style="display:inline-block; background:#841617; color:#fff; padding:6px 14px; border-radius:5px; font-weight:600; text-decoration:none;">📄 Teaching Portfolio</a>
-  </p>
+  <div class="teach-top">
+    <div class="left">
+      <h2 class="sec">Courses Taught</h2>
+      <div class="rule"></div>
+      <table class="ctable">
+        <thead>
+          <tr><th>Year</th><th>Semester</th><th>Course</th><th>Enrollment</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2025</td><td>Summer</td><td>ECON 2843: Elements of Statistics</td><td>16</td></tr>
+          <tr><td>2024</td><td>Fall</td><td>ECON 2843: Elements of Statistics</td><td>27</td></tr>
+          <tr><td>2024</td><td>Summer</td><td>ECON 2843: Elements of Statistics</td><td>13</td></tr>
+          <tr><td>2023</td><td>Fall</td><td>ECON 2843: Elements of Statistics</td><td>8</td></tr>
+          <tr><td>2023</td><td>Summer</td><td>ECON 1123: Principles of Microeconomics</td><td>24</td></tr>
+        </tbody>
+      </table>
+    </div>
 
-  <div style="border:1px solid #e6e0e0; border-left:4px solid #841617; background:#faf6f6; border-radius:6px; padding:12px 16px; margin:0 0 1.4rem 0;">
-    <strong>Upcoming Courses &mdash; In Person</strong>
-    <ul style="margin:8px 0 0 0; padding-left:1.15rem; line-height:1.6;">
-      <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
-      <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
+    <div class="right">
+      <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
+      <div class="upcoming">
+        <strong>Upcoming Courses &mdash; In Person</strong>
+        <ul>
+          <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
+          <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2 class="sec">Course Materials</h2>
+    <div class="rule"></div>
+
+    <div class="course">
+      <h3><a href="https://ou-public.courseleaf.com/courses/econ/" target="_blank" rel="noopener">Elements of Statistics (ECON 2843)</a></h3>
+      <button class="accordion">Course Description</button>
+      <div class="panel">
+        <p>An introductory statistics course surveying basic statistical techniques with an emphasis on business and economic applications, aimed at improving students&rsquo; analytical skills in descriptive and inferential statistics.</p>
+      </div>
+      <div class="materials">
+        <a href="/Syllabus_ECON_2843.pdf">Syllabus</a> &nbsp;&middot;&nbsp;
+        Reflection surveys:
+        <a href="/Stat_summer2024.pdf">Summer 2024</a>,
+        <a href="/Stat_Fall2024.pdf">Fall 2024</a>,
+        <a href="/Stat_Summer2025.pdf">Summer 2025</a>
+      </div>
+    </div>
+
+    <div class="course">
+      <h3><a href="https://ou-public.courseleaf.com/courses/econ/" target="_blank" rel="noopener">Principles of Economics&ndash;Micro (ECON 1123)</a></h3>
+      <button class="accordion">Course Description</button>
+      <div class="panel">
+        <p>An introduction to basic microeconomic concepts, preparing students to understand microeconomic theory and its applications, work with equilibrium graphs, and relate economic principles to real-world situations.</p>
+      </div>
+      <div class="materials">
+        <a href="/Syllabus_ECON_1123.pdf">Syllabus</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="sec">Teaching Assistant &amp; Guest Lecturer</h2>
+    <div class="rule"></div>
+    <ul class="talist">
+      <li>Intermediate Microeconomic Theory (ECON 3113)</li>
+      <li>Labor Problems (ECON 3513)</li>
+      <li>Labor Economics I (ECON 6433) &mdash; doctoral</li>
+      <li>The Economics of Discrimination (ECON 4513)</li>
+      <li>Introduction to Applied Econometrics (ECON 4233)</li>
+      <li>Econometrics II (ECON 5243) &mdash; doctoral</li>
     </ul>
-  </div>
+    <div class="note">All at the University of Oklahoma.</div>
+  </section>
 
-  <!-- Elements of Statistics -->
-  <h2>
-    <a href="https://ou-public.courseleaf.com/courses/econ/" target="_blank" rel="noopener">
-      Elements of Statistics (ECON 2843)
-    </a>
-  </h2>
-  <p class="sub">University of Oklahoma – Fall 2023, Summer 2024, Fall 2024, Summer 2025</p>
-
-  <button class="accordion">Course Description</button>
-  <div class="panel">
-    <p>This is an introductory statistics course, which surveys basic statistical techniques with particular emphasis on business and economic applications. The learning objective of this course is to improve students' analytical skills in understanding and employing descriptive and inferential statistics.</p>
-  </div>
-
-  <button class="accordion">Course Materials</button>
-  <div class="panel materials">
-    <a href="/Syllabus_ECON_2843.pdf">Syllabus</a><br>
-    <a href="/Stat_summer2024.pdf">Course Reflection Survey: Summer 2024</a><br>
-    <a href="/Stat_Fall2024.pdf">Course Reflection Survey: Fall 2024</a><br>
-    <a href="/Stat_Summer2025.pdf">Course Reflection Survey: Summer 2025</a>
-  </div>
-
-  <hr>
-
-  <!-- Principles of Micro -->
-  <h2>
-    <a href="https://ou-public.courseleaf.com/courses/econ/" target="_blank" rel="noopener">
-      Principles of Economics–Micro (ECON 1123)
-    </a>
-  </h2>
-  <p class="sub">University of Oklahoma – Summer 2023</p>
-
-  <button class="accordion">Course Description</button>
-  <div class="panel">
-    <p>The objective of this course is to introduce students to basic microeconomic concepts and prepare them for future economic classes. By the end of this class, students should be able to understand microeconomic theory and its applications, prepare and understand basic equilibrium graphs, relate economic topics to real world situations, and explain economic principles.</p>
-  </div>
-
-  <button class="accordion">Course Materials</button>
-  <div class="panel materials">
-    <a href="/Syllabus_ECON_1123.pdf">Syllabus</a>
-  </div>
+  <section>
+    <h2 class="sec">What Students Say</h2>
+    <div class="rule"></div>
+    <div class="quote-grid">
+      <div class="qcard">&ldquo;This course was honestly one of the best ones I have taken at OU.&rdquo;</div>
+      <div class="qcard">&ldquo;The Case Studies made a great impact&nbsp;&mdash;&nbsp;they allowed us to see and practice the material in real time and in a realistic way (using Excel).&rdquo;</div>
+      <div class="qcard">&ldquo;Professor was easily accessible and really made an effort to make sure we understood lessons.&rdquo;</div>
+    </div>
+  </section>
 
 </div>
 
 <script>
-  // simple accordion toggler
   (function () {
     var acc = document.querySelectorAll('.teach .accordion');
     for (var i = 0; i < acc.length; i++) {
@@ -123,34 +188,4 @@ description: "Courses on statistics and microeconomics"
     }
   })();
 </script>
-{{< /rawhtml >}}
-
-
----
-
-## Teaching Assistant and Guest Lecturer
-
-- Intermediate Microeconomic Theory (ECON 3113), University of Oklahoma  
-- Labor Problems (ECON 3513), University of Oklahoma
-- Labor Economics I (ECON 6433), doctoral-level course, University of Oklahoma 
-- The Economics of Discrimination (ECON 4513), University of Oklahoma  
-- Introduction to Applied Econometrics (ECON 4233), University of Oklahoma  
-- Econometrics II (ECON 5243), doctoral-level course, University of Oklahoma
-
----
-
-## What Students Say
-
-{{< rawhtml >}}
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:0.6rem;">
-  <blockquote style="margin:0; border:1px solid #eee; border-top:3px solid #841617; border-radius:8px; padding:16px 18px; background:#fafafa; font-style:italic; color:#333; line-height:1.55;">
-    &ldquo;This course was honestly one of the best ones I have taken at OU.&rdquo;
-  </blockquote>
-  <blockquote style="margin:0; border:1px solid #eee; border-top:3px solid #841617; border-radius:8px; padding:16px 18px; background:#fafafa; font-style:italic; color:#333; line-height:1.55;">
-    &ldquo;The Case Studies made a great impact&nbsp;&mdash;&nbsp;they allowed us to see and practice the material in real time and in a realistic way (using Excel).&rdquo;
-  </blockquote>
-  <blockquote style="margin:0; border:1px solid #eee; border-top:3px solid #841617; border-radius:8px; padding:16px 18px; background:#fafafa; font-style:italic; color:#333; line-height:1.55;">
-    &ldquo;Professor was easily accessible and really made an effort to make sure we understood lessons.&rdquo;
-  </blockquote>
-</div>
 {{< /rawhtml >}}
