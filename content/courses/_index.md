@@ -109,14 +109,15 @@ description: "Courses on statistics and microeconomics"
 
     <div class="right">
       <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
-      <div class="upcoming">
-        <strong>Upcoming Courses &mdash; In Person</strong>
-        <ul>
-          <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
-          <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
-        </ul>
-      </div>
     </div>
+  </div>
+
+  <div class="upcoming">
+    <strong>Upcoming Courses &mdash; In Person</strong>
+    <ul>
+      <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
+      <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
+    </ul>
   </div>
 
   <section>
