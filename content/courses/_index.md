@@ -11,13 +11,16 @@ description: "Courses on statistics and microeconomics"
 /* two-column top */
 .teach-top {
   display: flex;
-  gap: 40px;
-  align-items: flex-start;
+  gap: 32px;
+  align-items: stretch;
   flex-wrap: wrap;
   margin: 0.4rem 0 3rem 0;
 }
-.teach-top .left  { flex: 1 1 440px; min-width: 300px; }
-.teach-top .right { flex: 0 0 300px; }
+.teach-top .left  {
+  flex: 1 1 500px; min-width: 320px;
+  background: #f5f5f4; border-radius: 10px; padding: 20px 24px;
+}
+.teach-top .right { flex: 0 0 340px; display: flex; flex-direction: column; }
 
 /* section rhythm */
 .teach section { margin: 3rem 0; }
@@ -44,17 +47,17 @@ description: "Courses on statistics and microeconomics"
 
 /* portfolio button + upcoming box */
 .portfolio-btn {
-  display: inline-block;
+  display: block; text-align: center;
   background: #841617; color: #fff !important;
-  padding: 10px 18px; border-radius: 6px;
-  font-weight: 600; text-decoration: none;
+  padding: 15px 18px; border-radius: 8px;
+  font-weight: 600; font-size: 1.05rem; text-decoration: none;
 }
 .upcoming {
-  border: 1px solid #e6e0e0; border-left: 4px solid #841617;
-  background: #faf6f6; border-radius: 8px;
-  padding: 14px 16px; margin-top: 18px;
+  border: 2px solid #841617; background: #f5f5f4;
+  border-radius: 10px; padding: 16px 20px;
+  margin: 0 0 18px 0; flex: 1 1 auto;
 }
-.upcoming ul { margin: 8px 0 0 0; padding-left: 1.15rem; line-height: 1.65; }
+.upcoming ul { margin: 8px 0 0 0; padding-left: 1.15rem; line-height: 1.75; }
 
 /* course blocks */
 .teach .course { margin: 0 0 1.8rem 0; }
@@ -89,7 +92,9 @@ description: "Courses on statistics and microeconomics"
 
 <div class="teach">
 
-  <h2 class="sec">Courses Taught</h2>
+  <div class="teach-top">
+    <div class="left">
+      <h2 class="sec">Courses Taught</h2>
       <div class="rule"></div>
       <table class="ctable">
         <thead>
@@ -103,17 +108,18 @@ description: "Courses on statistics and microeconomics"
           <tr><td>2023</td><td>Summer</td><td>ECON 1123: Principles of Microeconomics</td><td>24</td></tr>
         </tbody>
       </table>
+    </div>
 
-  <p style="margin: 1.6rem 0 0 0;">
-    <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
-  </p>
-
-  <div class="upcoming">
-    <strong>Upcoming Courses &mdash; In Person</strong>
-    <ul>
-      <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
-      <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
-    </ul>
+    <div class="right">
+      <div class="upcoming">
+        <strong>Upcoming Courses &mdash; In Person</strong>
+        <ul>
+          <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
+          <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
+        </ul>
+      </div>
+      <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
+    </div>
   </div>
 
   <section>
