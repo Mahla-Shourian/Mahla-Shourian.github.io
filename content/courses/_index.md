@@ -6,127 +6,123 @@ description: "Courses on statistics and microeconomics"
 
 {{< rawhtml >}}
 <style>
-.teach { max-width: 100%; }
+.teach { max-width: 100%; font-size: 1.06rem; line-height: 1.72; }
 
-/* two-column top */
-.teach-top {
-  display: flex;
-  gap: 32px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 0.4rem 0 3rem 0;
+/* uniform section cards */
+.tcard {
+  background: #f6f5f3;
+  border: 1px solid #e6e4e1;
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin: 0 0 2.8rem 0;
 }
-.teach-top .left  {
-  flex: 1 1 480px; min-width: 320px;
-  background: #f5f5f4; border-radius: 10px; padding: 20px 24px;
-}
-.teach-top .right { flex: 0 0 440px; display: flex; flex-direction: column; }
-
-/* section rhythm */
-.teach section { margin: 3rem 0; }
-.teach .sec {
+.tcard:last-child { margin-bottom: 0; }
+.tcard h2 {
   font-family: Georgia, "Palatino Linotype", Palatino, serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 0 0 0.25rem 0;
+  font-size: 1.6rem; font-weight: 600;
+  margin: 0 0 0.3rem 0; padding: 0;
 }
-.teach .rule { border: 0; border-top: 2px solid #841617; width: 64px; margin: 4px 0 1.3rem 0; }
+.tcard .rule { border: 0; border-top: 2px solid #841617; width: 66px; margin: 6px 0 1.4rem 0; }
+
+/* upcoming courses list */
+.upcoming-list { list-style: none; margin: 0; padding: 0; }
+.upcoming-list li { margin: 0 0 1.1rem 0; }
+.upcoming-list li:last-child { margin-bottom: 0; }
+.upcoming-list .name { font-weight: 600; }
+.upcoming-list .term { display: block; margin-top: 3px; color: #841617; font-weight: 700; }
+
+/* portfolio button */
+.portfolio-btn {
+  display: inline-block;
+  background: #841617; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px;
+  font-weight: 600; text-decoration: none; font-size: 1.02rem;
+  margin: 0 0 1.5rem 0;
+}
 
 /* courses-taught table */
-.ctable { width: 100%; border-collapse: collapse; font-size: 0.96rem; }
+.ctable { width: 100%; border-collapse: collapse; font-size: 1.02rem; }
 .ctable th {
-  text-align: left;
-  padding: 9px 12px;
-  border-bottom: 2px solid #841617;
-  font-weight: 600;
-  white-space: nowrap;
+  text-align: left; padding: 11px 14px;
+  border-bottom: 2px solid #841617; font-weight: 600; white-space: nowrap;
 }
-.ctable td { padding: 9px 12px; border-bottom: 1px solid #ededed; }
+.ctable td { padding: 11px 14px; border-bottom: 1px solid #e4e2df; }
 .ctable tr:last-child td { border-bottom: 0; }
 .ctable td:last-child, .ctable th:last-child { text-align: center; }
 
-/* portfolio button + upcoming box */
-.portfolio-btn {
-  display: block; text-align: center;
-  background: #841617; color: #fff !important;
-  padding: 15px 18px; border-radius: 8px;
-  font-weight: 600; font-size: 1.05rem; text-decoration: none;
+/* course-materials blocks */
+.course { margin: 0 0 1.8rem 0; }
+.course:last-child { margin-bottom: 0; }
+.course h3 { margin: 0 0 0.5rem 0; font-size: 1.22rem; }
+.accordion {
+  font: 600 0.98rem/1.4 inherit; cursor: pointer;
+  padding: 7px 12px; border: none; text-align: left;
+  background: #ecebe8; border-radius: 6px; margin: 0.15rem 0;
 }
-.upcoming {
-  border: 2px solid #841617; background: #f5f5f4;
-  border-radius: 10px; padding: 16px 22px;
-  margin: 0 0 18px 0;
+.accordion:hover, .accordion.active { background: #e3e1dd; }
+.accordion::after { content: " [+]"; font-size: 0.9rem; color:#777; float: right; }
+.accordion.active::after { content: " [\2212]"; }
+.panel {
+  display: none; background: #fff; border-left: 3px solid #ddd;
+  padding: 10px 14px; margin: 0.35rem 0 0.7rem 0; font-size: 1rem;
 }
-.upcoming ul { margin: 10px 0 0 0; padding-left: 1.15rem; }
-.upcoming li { margin-bottom: 14px; line-height: 1.35; }
-.upcoming li:last-child { margin-bottom: 0; }
-.upcoming li strong { display: inline-block; margin-top: 3px; }
-
-/* course blocks */
-.teach .course { margin: 0 0 1.8rem 0; }
-.teach .course h3 { margin: 0 0 0.4rem 0; font-size: 1.15rem; }
-.teach .accordion {
-  font: 600 0.92rem/1.4 Lato, "Helvetica Neue", Arial, sans-serif;
-  cursor: pointer; padding: 6px 10px; border: none; text-align: left;
-  background: #f4f4f4; border-radius: 4px; margin: 0.15rem 0;
-}
-.teach .accordion:hover, .teach .accordion.active { background: #ececec; }
-.teach .accordion::after { content: " [+]"; font-size: 0.9rem; color:#777; float: right; }
-.teach .accordion.active::after { content: " [\2212]"; }
-.teach .panel {
-  display: none; background: #fff; border-left: 3px solid #eee;
-  padding: 8px 12px; margin: 0.25rem 0 0.6rem 0; font-size: 0.95rem;
-}
-.teach .panel.show { display: block !important; }
-.teach .materials { margin-top: 0.55rem; font-size: 0.95rem; color: #555; }
-.teach .materials a { color: #841617; }
+.panel.show { display: block !important; }
+.materials { margin-top: 0.7rem; }
+.materials a { color: #841617; }
 
 /* TA list */
-.teach .talist { margin: 0.4rem 0 0.6rem 0; line-height: 1.9; }
-.teach .note { color: #777; font-size: 0.9rem; font-style: italic; }
+.talist { margin: 0.2rem 0 0.7rem 0; line-height: 2; padding-left: 1.2rem; }
+.tnote { color: #777; font-style: italic; }
 
-/* student comment cards */
-.quote-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; margin-top: 0.4rem; }
-.qcard {
-  border: 1px solid #eee; border-top: 3px solid #841617; border-radius: 8px;
-  padding: 18px 20px; background: #fafafa; font-style: italic; color: #333; line-height: 1.55;
+/* student comments */
+.qquote {
+  border-left: 3px solid #841617;
+  padding: 4px 0 4px 18px; margin: 0 0 1.2rem 0;
+  font-style: italic; color: #333;
 }
+.qquote:last-child { margin-bottom: 0; }
 </style>
 
 <div class="teach">
 
-  <div class="teach-top">
-    <div class="left">
-      <h2 class="sec">Courses Taught</h2>
-      <div class="rule"></div>
-      <table class="ctable">
-        <thead>
-          <tr><th>Year</th><th>Semester</th><th>Course</th><th>Enrollment</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>2025</td><td>Summer</td><td>ECON 2843: Elements of Statistics</td><td>16</td></tr>
-          <tr><td>2024</td><td>Fall</td><td>ECON 2843: Elements of Statistics</td><td>27</td></tr>
-          <tr><td>2024</td><td>Summer</td><td>ECON 2843: Elements of Statistics</td><td>13</td></tr>
-          <tr><td>2023</td><td>Fall</td><td>ECON 2843: Elements of Statistics</td><td>8</td></tr>
-          <tr><td>2023</td><td>Summer</td><td>ECON 1123: Principles of Microeconomics</td><td>24</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="right">
-      <div class="upcoming">
-        <strong>Upcoming Courses &mdash; In Person</strong>
-        <ul>
-          <li>Elements of Statistics (ECON 2843)<br><strong>Fall 2026</strong></li>
-          <li>Principles of Economics&ndash;Micro (ECON 1123)<br><strong>Spring 2027</strong></li>
-        </ul>
-      </div>
-      <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
-    </div>
+  <!-- 1. Upcoming Courses -->
+  <div class="tcard">
+    <h2>Upcoming Courses &mdash; In Person</h2>
+    <div class="rule"></div>
+    <ul class="upcoming-list">
+      <li>
+        <span class="name">Elements of Statistics (ECON 2843)</span>
+        <span class="term">Fall 2026</span>
+      </li>
+      <li>
+        <span class="name">Principles of Economics&ndash;Micro (ECON 1123)</span>
+        <span class="term">Spring 2027</span>
+      </li>
+    </ul>
   </div>
 
-  <section>
-    <h2 class="sec">Course Materials</h2>
+  <!-- 2. Courses Taught -->
+  <div class="tcard">
+    <h2>Courses Taught</h2>
+    <div class="rule"></div>
+    <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
+    <table class="ctable">
+      <thead>
+        <tr><th>Year</th><th>Semester</th><th>Course</th><th>Enrollment</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>2025</td><td>Summer</td><td>ECON 2843: Elements of Statistics</td><td>16</td></tr>
+        <tr><td>2024</td><td>Fall</td><td>ECON 2843: Elements of Statistics</td><td>27</td></tr>
+        <tr><td>2024</td><td>Summer</td><td>ECON 2843: Elements of Statistics</td><td>13</td></tr>
+        <tr><td>2023</td><td>Fall</td><td>ECON 2843: Elements of Statistics</td><td>8</td></tr>
+        <tr><td>2023</td><td>Summer</td><td>ECON 1123: Principles of Microeconomics</td><td>24</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3. Course Materials -->
+  <div class="tcard">
+    <h2>Course Materials</h2>
     <div class="rule"></div>
 
     <div class="course">
@@ -154,10 +150,11 @@ description: "Courses on statistics and microeconomics"
         <a href="/Syllabus_ECON_1123.pdf">Syllabus</a>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section>
-    <h2 class="sec">Teaching Assistant &amp; Guest Lecturer</h2>
+  <!-- 4. Teaching Assistant -->
+  <div class="tcard">
+    <h2>Teaching Assistant &amp; Guest Lecturer</h2>
     <div class="rule"></div>
     <ul class="talist">
       <li>Intermediate Microeconomic Theory (ECON 3113)</li>
@@ -167,18 +164,17 @@ description: "Courses on statistics and microeconomics"
       <li>Introduction to Applied Econometrics (ECON 4233)</li>
       <li>Econometrics II (ECON 5243) &mdash; doctoral</li>
     </ul>
-    <div class="note">All at the University of Oklahoma.</div>
-  </section>
+    <div class="tnote">All at the University of Oklahoma.</div>
+  </div>
 
-  <section>
-    <h2 class="sec">What Students Say</h2>
+  <!-- 5. What Students Say -->
+  <div class="tcard">
+    <h2>What Students Say</h2>
     <div class="rule"></div>
-    <div class="quote-grid">
-      <div class="qcard">&ldquo;This course was honestly one of the best ones I have taken at OU.&rdquo;</div>
-      <div class="qcard">&ldquo;The Case Studies made a great impact&nbsp;&mdash;&nbsp;they allowed us to see and practice the material in real time and in a realistic way (using Excel).&rdquo;</div>
-      <div class="qcard">&ldquo;Professor was easily accessible and really made an effort to make sure we understood lessons.&rdquo;</div>
-    </div>
-  </section>
+    <div class="qquote">&ldquo;This course was honestly one of the best ones I have taken at OU.&rdquo;</div>
+    <div class="qquote">&ldquo;The Case Studies made a great impact&nbsp;&mdash;&nbsp;they allowed us to see and practice the material in real time and in a realistic way (using Excel).&rdquo;</div>
+    <div class="qquote">&ldquo;Professor was easily accessible and really made an effort to make sure we understood lessons.&rdquo;</div>
+  </div>
 
 </div>
 
