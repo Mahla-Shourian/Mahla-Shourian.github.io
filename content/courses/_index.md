@@ -6,16 +6,13 @@ description: "Courses on statistics and microeconomics"
 
 {{< rawhtml >}}
 <style>
+/* hide the page title ("Teaching") on this page */
+.page-header { display: none; }
+
 .teach { max-width: 100%; font-size: 1.06rem; line-height: 1.72; }
 
-/* uniform section cards */
-.tcard {
-  background: #f6f5f3;
-  border: 1px solid #e6e4e1;
-  border-radius: 12px;
-  padding: 28px 32px;
-  margin: 0 0 2.8rem 0;
-}
+/* sections (no boxes) */
+.tcard { margin: 0 0 3.2rem 0; }
 .tcard:last-child { margin-bottom: 0; }
 .tcard h2 {
   font-family: Georgia, "Palatino Linotype", Palatino, serif;
