@@ -12,15 +12,15 @@ description: "Courses on statistics and microeconomics"
 .teach-top {
   display: flex;
   gap: 32px;
-  align-items: stretch;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 0.4rem 0 3rem 0;
 }
 .teach-top .left  {
-  flex: 1 1 500px; min-width: 320px;
+  flex: 1 1 480px; min-width: 320px;
   background: #f5f5f4; border-radius: 10px; padding: 20px 24px;
 }
-.teach-top .right { flex: 0 0 340px; display: flex; flex-direction: column; }
+.teach-top .right { flex: 0 0 440px; display: flex; flex-direction: column; }
 
 /* section rhythm */
 .teach section { margin: 3rem 0; }
@@ -54,10 +54,13 @@ description: "Courses on statistics and microeconomics"
 }
 .upcoming {
   border: 2px solid #841617; background: #f5f5f4;
-  border-radius: 10px; padding: 16px 20px;
-  margin: 0 0 18px 0; flex: 1 1 auto;
+  border-radius: 10px; padding: 16px 22px;
+  margin: 0 0 18px 0;
 }
-.upcoming ul { margin: 8px 0 0 0; padding-left: 1.15rem; line-height: 1.75; }
+.upcoming ul { margin: 10px 0 0 0; padding-left: 1.15rem; }
+.upcoming li { margin-bottom: 14px; line-height: 1.35; }
+.upcoming li:last-child { margin-bottom: 0; }
+.upcoming li strong { display: inline-block; margin-top: 3px; }
 
 /* course blocks */
 .teach .course { margin: 0 0 1.8rem 0; }
@@ -114,8 +117,8 @@ description: "Courses on statistics and microeconomics"
       <div class="upcoming">
         <strong>Upcoming Courses &mdash; In Person</strong>
         <ul>
-          <li>Elements of Statistics (ECON 2843) &mdash; Fall 2026</li>
-          <li>Principles of Economics&ndash;Micro (ECON 1123) &mdash; Spring 2027</li>
+          <li>Elements of Statistics (ECON 2843)<br><strong>Fall 2026</strong></li>
+          <li>Principles of Economics&ndash;Micro (ECON 1123)<br><strong>Spring 2027</strong></li>
         </ul>
       </div>
       <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
