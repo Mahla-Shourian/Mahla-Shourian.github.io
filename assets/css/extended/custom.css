@@ -1,99 +1,168 @@
 /* ============================================================
-   Mahla Shourian — visual refresh (OU crimson accent)
+   Mahla Shourian — modern visual refresh (2026–27 job market)
    Single override file; no theme files modified.
    ============================================================ */
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
+
 :root {
-  --accent: #841617;        /* OU crimson */
-  --accent-dark: #6d1213;
-  --muted: #565656;          /* calm neutral for icons/buttons */
-  --muted-border: #cccccc;
-  --main-width: 1040px;
-  --nav-width: 1060px;
+     --accent: #841617;
+     --accent-dark: #5e0f10;
+     --accent-soft: #f7ecec;
+     --ink: #22201f;
+     --ink-soft: #55504c;
+     --paper: #faf8f6;
+     --card-bg: #ffffff;
+     --border: #e8e3df;
+     --shadow: 0 4px 18px rgba(30, 20, 18, 0.07);
+     --shadow-hover: 0 8px 26px rgba(30, 20, 18, 0.12);
+     --radius: 12px;
+     --main-width: 1040px;
+     --nav-width: 1060px;
 }
 
-/* ---- Typography: elegant serif headings, airier body ---- */
+html, body { background: var(--paper); color: var(--ink); }
+body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
 h1, h2, h3, h4,
 .profile .profile_inner h1,
 .post-title,
 .paper-heading {
-  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", serif;
-  letter-spacing: -0.01em;
-  font-weight: 600;
+     font-family: "Fraunces", Georgia, serif;
+     letter-spacing: -0.01em;
+     font-weight: 600;
+     color: var(--ink);
 }
 
-.profile .profile_inner h1 { font-size: 34px; padding: 6px 0; }
+.profile .profile_inner h1 { font-size: 36px; padding: 6px 0; font-weight: 700; }
 
-.post-content { font-size: 17px; line-height: 1.72; }
-.post-content h2 { margin-top: 2.3rem; font-size: 1.5rem; }
-.post-content h3 { margin-top: 1.4rem; font-size: 1.18rem; }
+.post-content { font-size: 17px; line-height: 1.75; color: var(--ink); }
+.post-content h2 { margin-top: 2.6rem; font-size: 1.55rem; }
+.post-content h3 { margin-top: 1.6rem; font-size: 1.2rem; }
+.post-content h3 a { color: var(--ink); }
+.post-content h3 a:hover { color: var(--accent); }
 
-/* Short crimson rule under each section header (the markdown ---) */
 .post-content hr {
-  border: 0;
-  border-top: 2px solid var(--accent);
-  width: 64px;
-  margin: 4px 0 20px;
+     border: 0;
+     border-top: 2px solid var(--accent);
+     width: 56px;
+     margin: 6px 0 22px;
+     border-radius: 2px;
 }
 
-/* ---- Links in crimson ---- */
 .post-content a {
-  color: var(--accent);
-  box-shadow: 0 -1px 0 var(--accent) inset;
+     color: var(--accent);
+     box-shadow: 0 -1px 0 var(--accent) inset;
+     text-decoration: none;
+     transition: color 0.15s ease, box-shadow 0.15s ease;
 }
 .post-content a:hover {
-  color: var(--accent-dark);
-  box-shadow: 0 -2px 0 var(--accent) inset;
+     color: var(--accent-dark);
+     box-shadow: 0 -2px 0 var(--accent) inset;
 }
 .profile a { color: inherit; }
 
-/* ---- Header / nav ---- */
-.nav { background: var(--theme); border-bottom: 1px solid var(--border); }
-.logo a:hover, #menu a:hover { color: var(--accent); }
-
-/* ---- Profile buttons: crimson outline pills ---- */
-.button {
-  background: transparent;
-  border: 1.5px solid var(--muted-border);
-  border-radius: 999px;
-  margin: 8px 12px 8px 0;
-  padding: 6px 6px;
-  transition: all 0.15s ease;
+.nav {
+     background: rgba(250, 248, 246, 0.92);
+     backdrop-filter: saturate(180%) blur(6px);
+     border-bottom: 1px solid var(--border);
 }
-.button-inner { color: var(--muted); font-weight: 500; }
-.button:hover { background: #faf6f6; border-color: var(--accent); }
-.button:hover .button-inner { color: var(--accent); }
+.logo a { font-weight: 700; letter-spacing: -0.01em; }
+#menu a { font-weight: 500; letter-spacing: 0.01em; position: relative; }
+.logo a:hover, #menu a:hover { color: var(--accent); }
+#menu a::after {
+     content: "";
+     position: absolute;
+     left: 0; bottom: -6px;
+     width: 0; height: 2px;
+     background: var(--accent);
+     transition: width 0.2s ease;
+}
+#menu a:hover::after { width: 100%; }
 
-/* ---- Social icons ---- */
-.social-icons a { color: var(--muted); }
+.button {
+     background: var(--card-bg);
+     border: 1.5px solid var(--border);
+     border-radius: 999px;
+     margin: 8px 12px 8px 0;
+     padding: 7px 8px;
+     box-shadow: var(--shadow);
+     transition: all 0.18s ease;
+}
+.button-inner { color: var(--ink-soft); font-weight: 600; }
+.button:hover {
+     background: var(--accent-soft);
+     border-color: var(--accent);
+     transform: translateY(-2px);
+     box-shadow: var(--shadow-hover);
+}
+.button:hover .button-inner { color: var(--accent-dark); }
+
+.social-icons a { color: var(--ink-soft); transition: color 0.15s ease; }
 .social-icons a:hover { color: var(--accent); }
 
-/* ---- Homepage: two-column profile (photo left, about right) ---- */
 .main:has(.profile) { max-width: 1088px; }
-
 .profile .profile_inner { width: 100%; max-width: 1088px; }
 .profile-top {
-  display: flex;
-  gap: 34px;
-  align-items: flex-start;
-  text-align: left;
-  margin-bottom: 8px;
+     display: flex;
+     gap: 38px;
+     align-items: flex-start;
+     text-align: left;
+     margin-bottom: 8px;
 }
 .profile-photo { flex: 0 0 230px; }
 .profile-photo img {
-  display: block;
-  width: 230px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 3px 14px rgba(0,0,0,0.10);
+     display: block;
+     width: 230px;
+     height: auto;
+     border-radius: var(--radius);
+     box-shadow: var(--shadow-hover);
 }
 .profile-about { flex: 1 1 320px; }
 .profile-about h1 { margin: 0 0 14px; padding: 0; }
 .profile-about span { display: block; }
-.profile-jmp { margin: 8px 0 22px; }
+.profile-jmp { margin: 10px 0 22px; }
 
 @media (max-width: 680px) {
-  .profile-top { flex-direction: column; align-items: flex-start; gap: 18px; }
-  .profile-photo { flex-basis: auto; }
-  .profile-photo img { width: 190px; }
+     .profile-top { flex-direction: column; align-items: flex-start; gap: 20px; }
+     .profile-photo { flex-basis: auto; }
+     .profile-photo img { width: 190px; }
+}
+
+.profile-jmp > div {
+     border: 1px solid var(--border) !important;
+     border-left: 4px solid var(--accent) !important;
+     border-radius: var(--radius) !important;
+     background: linear-gradient(180deg, #fff, var(--accent-soft)) !important;
+     box-shadow: var(--shadow) !important;
+     padding: 18px 22px !important;
+}
+
+.post-content details { margin: 10px 0 18px; }
+.post-content summary {
+     cursor: pointer;
+     font-weight: 600;
+     font-size: 0.92rem;
+     color: var(--accent);
+     list-style: none;
+     padding: 6px 12px;
+     display: inline-block;
+     border: 1px solid var(--border);
+     border-radius: 999px;
+     background: var(--card-bg);
+     transition: all 0.15s ease;
+}
+.post-content summary::-webkit-details-marker { display: none; }
+.post-content summary:hover,
+.post-content details[open] summary {
+     background: var(--accent-soft);
+     border-color: var(--accent);
+}
+.post-content details p {
+     margin-top: 10px;
+     padding: 14px 18px;
+     background: var(--card-bg);
+     border-left: 3px solid var(--border);
+     border-radius: 0 8px 8px 0;
+     color: var(--ink-soft);
 }
