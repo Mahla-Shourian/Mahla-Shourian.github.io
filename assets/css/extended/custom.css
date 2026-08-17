@@ -166,3 +166,62 @@ h1, h2, h3, h4,
      border-radius: 0 8px 8px 0;
      color: var(--ink-soft);
 }
+
+/* ============================================================
+   Refinement pass — accessibility, focus states, motion,
+   and mobile polish. Purely additive; nothing above changed.
+   ============================================================ */
+
+/* Smooth in-page anchor scrolling with header offset */
+html { scroll-behavior: smooth; }
+:target { scroll-margin-top: 70px; }
+
+/* Branded text selection */
+::selection { background: var(--accent-soft); color: var(--accent-dark); }
+
+/* Visible keyboard focus for accessibility (mouse clicks stay clean) */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+.button:focus-visible,
+.social-icons a:focus-visible,
+#menu a:focus-visible {
+     outline: 2.5px solid var(--accent);
+     outline-offset: 3px;
+     border-radius: 6px;
+}
+
+/* Larger, easier-to-tap social icons on the homepage */
+.social-icons a { padding: 6px; border-radius: 8px; }
+.social-icons a:hover { background: var(--accent-soft); }
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+     html { scroll-behavior: auto; }
+     *, *::before, *::after {
+          animation-duration: 0.001ms !important;
+          transition-duration: 0.001ms !important;
+     }
+     .button:hover { transform: none; }
+}
+
+/* --- Mobile polish --- */
+@media (max-width: 680px) {
+     /* Comfortable page gutters on phones */
+     .main { padding-left: 18px; padding-right: 18px; }
+
+     /* Slightly smaller headline so it never overflows narrow screens */
+     .profile .profile_inner h1 { font-size: 30px; }
+     .post-content { font-size: 16px; }
+
+     /* Teaching "Courses Taught" table scrolls instead of squishing */
+     .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+     .ctable { font-size: 0.96rem; }
+
+     /* Homepage buttons space out and are easy to tap */
+     .buttons { display: flex; flex-wrap: wrap; gap: 4px; }
+     .button { margin: 6px 8px 6px 0; padding: 8px 14px; }
+
+     /* Keep embedded maps/iframes inside the viewport */
+     .post-content iframe { max-width: 100%; }
+}
