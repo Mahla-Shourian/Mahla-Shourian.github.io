@@ -38,6 +38,7 @@ description: "Courses on statistics and microeconomics"
 }
 
 /* courses-taught table */
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .ctable { width: 100%; border-collapse: collapse; font-size: 1.02rem; }
 .ctable th {
   text-align: left; padding: 11px 14px;
@@ -103,6 +104,7 @@ description: "Courses on statistics and microeconomics"
     <h2>Courses Taught</h2>
     <div class="rule"></div>
     <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
+    <div class="table-scroll">
     <table class="ctable">
       <thead>
         <tr><th>Year</th><th>Semester</th><th>Course</th><th>Enrollment</th></tr>
@@ -115,6 +117,7 @@ description: "Courses on statistics and microeconomics"
         <tr><td>2023</td><td>Summer</td><td>ECON 1123: Principles of Microeconomics</td><td>24</td></tr>
       </tbody>
     </table>
+    </div>
   </div>
 
   <!-- 3. Course Materials -->
