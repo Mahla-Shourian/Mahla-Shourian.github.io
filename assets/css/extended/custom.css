@@ -70,6 +70,19 @@ h1, h2, h3, h4,
 }
 /* Active-page underline in the brand maroon (was a leftover theme purple) */
 #menu .active { border-bottom-color: var(--accent); }
+/* Logo mark in the nav: maroon rounded square (replaces the purple favicon) */
+.logo a img { display: none; }
+.logo a::before {
+     content: "";
+     display: inline-block;
+     width: 18px;
+     height: 18px;
+     background: var(--accent);
+     border-radius: 5px;
+     margin-inline-end: 8px;
+     vertical-align: middle;
+     transform: translateY(-10%);
+}
 .nav {
      background: rgba(250, 248, 246, 0.92);
      backdrop-filter: saturate(180%) blur(6px);
