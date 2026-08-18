@@ -85,7 +85,7 @@ description: "Courses on statistics and microeconomics"
 
   <!-- 1. Upcoming Courses -->
   <div class="tcard">
-    <h2>Upcoming Courses &mdash; In Person</h2>
+    <h2>📅 Upcoming Courses &mdash; In Person</h2>
     <div class="rule"></div>
     <ul class="upcoming-list">
       <li>
@@ -101,7 +101,7 @@ description: "Courses on statistics and microeconomics"
 
   <!-- 2. Courses Taught -->
   <div class="tcard">
-    <h2>Courses Taught</h2>
+    <h2>🎓 Courses Taught</h2>
     <div class="rule"></div>
     <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
     <div class="table-scroll">
@@ -122,7 +122,7 @@ description: "Courses on statistics and microeconomics"
 
   <!-- 3. Course Materials -->
   <div class="tcard">
-    <h2>Course Materials</h2>
+    <h2>📚 Course Materials</h2>
     <div class="rule"></div>
 
     <div class="course">
@@ -154,7 +154,7 @@ description: "Courses on statistics and microeconomics"
 
   <!-- 4. Teaching Assistant -->
   <div class="tcard">
-    <h2>Teaching Assistant &amp; Guest Lecturer</h2>
+    <h2>👩‍🏫 Teaching Assistant &amp; Guest Lecturer</h2>
     <div class="rule"></div>
     <ul class="talist">
       <li>Intermediate Microeconomic Theory (ECON 3113)</li>
@@ -169,7 +169,7 @@ description: "Courses on statistics and microeconomics"
 
   <!-- 5. What Students Say -->
   <div class="tcard">
-    <h2>What Students Say</h2>
+    <h2>💬 What Students Say</h2>
     <div class="rule"></div>
     <div class="qquote">&ldquo;This course was honestly one of the best ones I have taken at OU.&rdquo;</div>
     <div class="qquote">&ldquo;The Case Studies made a great impact&nbsp;&mdash;&nbsp;they allowed us to see and practice the material in real time and in a realistic way (using Excel).&rdquo;</div>
