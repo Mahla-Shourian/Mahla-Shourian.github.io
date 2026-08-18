@@ -12,7 +12,7 @@ description: "Courses on statistics and microeconomics"
 .teach { max-width: 100%; font-size: 1.06rem; line-height: 1.72; }
 
 /* sections (no boxes) */
-.tcard { margin: 0 0 3.2rem 0; }
+.tcard { margin: 0 0 7.4rem 0; }
 .tcard:last-child { margin-bottom: 0; }
 .tcard h2 {
   font-family: Georgia, "Palatino Linotype", Palatino, serif;
