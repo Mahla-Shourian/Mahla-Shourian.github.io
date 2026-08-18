@@ -101,7 +101,7 @@ description: "Courses on statistics and microeconomics"
 
   <!-- 2. Courses Taught -->
   <div class="tcard">
-    <h2>🎓 Courses Taught</h2>
+    <h2>👩‍🏫 Courses Taught</h2>
     <div class="rule"></div>
     <a class="portfolio-btn" href="/Shourian_Teaching_Portfolio.pdf">&#128196; Teaching Portfolio</a>
     <div class="table-scroll">
@@ -154,7 +154,7 @@ description: "Courses on statistics and microeconomics"
 
   <!-- 4. Teaching Assistant -->
   <div class="tcard">
-    <h2>👩‍🏫 Teaching Assistant &amp; Guest Lecturer</h2>
+    <h2>🎓 Teaching Assistant &amp; Guest Lecturer</h2>
     <div class="rule"></div>
     <ul class="talist">
       <li>Intermediate Microeconomic Theory (ECON 3113)</li>
