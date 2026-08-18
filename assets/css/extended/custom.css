@@ -62,6 +62,14 @@ h1, h2, h3, h4,
 }
 .profile a { color: inherit; }
 
+/* Persistent (sticky) top nav on every page, including home */
+.header {
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+}
+/* Active-page underline in the brand maroon (was a leftover theme purple) */
+#menu .active { border-bottom-color: var(--accent); }
 .nav {
      background: rgba(250, 248, 246, 0.92);
      backdrop-filter: saturate(180%) blur(6px);
