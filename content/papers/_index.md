@@ -58,7 +58,7 @@ description: "Working Papers by Mahla Shourian"
 
 ### [Children Who Witness: Early Life Exposure to Unilateral Divorce Laws and Intimate Partner Violence in Adulthood](/Shourian_Ghosh_ChildrenWhoWitness_UDL_IPV.pdf)
 **Co‑author:** Pallab Ghosh  
-**Draft:** May 2026  
+**Draft:** August 2026  
 <details>
   <summary>Abstract [+]</summary>
   <p>This study investigates the impact of early childhood exposure to unilateral divorce laws (UDL) as a framework for understanding childhood shocks and their influence on intimate partner violence (IPV) in adulthood. Using data from the National Crime Victimization Survey (NCVS) from 2000–2015, combined with state divorce regulations, we find that individuals aged 0–10 at the time of the reforms are 0.18 percentage points more likely to experience IPV in adulthood than older cohorts and those in states without UDL. Additionally, we examine how childhood exposure to UDL influences IPV victimization through its effects on education and employment outcomes.</p>
