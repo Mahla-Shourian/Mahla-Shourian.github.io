@@ -44,6 +44,18 @@ description: "Working Papers by Mahla Shourian"
 
 
 
+### [The Relative Wage and Marriage after 2010: A Comment on Shenhav (2021)](/Shourian_Ghosh_RelativeWageMarriage_CommentShenhav.pdf)
+**Co‑author:** Pallab Ghosh  
+**Status:** Submitted to *Review of Economics and Statistics*  
+**Draft:** August 2026 · [Online Appendix](/Shourian_Ghosh_RelativeWageMarriage_CommentShenhav_OnlineAppendix.pdf)  
+<details>
+  <summary>Abstract [+]</summary>
+  <p>Shenhav (2021) reports that growth in women’s relative potential earnings reduced U.S. marriage rates between 1980 and 2010. Rebuilding the analysis from raw IPUMS microdata, we reproduce the published estimates and extend the sample through 2024. The extended coefficient is zero. What changed is the measure, not behavior. Within local marriage markets, the correlation between the shift–share relative wage and observed relative wages collapses from +0.744 (1980–2010) to −0.026 (2015–2024). Rebasing shares to 1980 does not restore it. A fixed-share regressor can lose correlation while maintaining narrow standard errors. We suggest checking measure relevance period by period.</p>
+</details>
+
+
+
+
 ### [Children Who Witness: Early Life Exposure to Unilateral Divorce Laws and Intimate Partner Violence in Adulthood](/Shourian_Ghosh_ChildrenWhoWitness_UDL_IPV.pdf)
 **Co‑author:** Pallab Ghosh  
 **Draft:** May 2026  
