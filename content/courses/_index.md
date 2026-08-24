@@ -91,6 +91,7 @@ description: "Courses on statistics and microeconomics"
       <li>
         <span class="name">Elements of Statistics (ECON 2843)</span>
         <span class="term">Fall 2026</span>
+        <div class="materials"><a href="/Syllabus_ECON_2843_Fall2026.pdf">Syllabus</a></div>
       </li>
       <li>
         <span class="name">Principles of Economics&ndash;Micro (ECON 1123)</span>
@@ -127,10 +128,6 @@ description: "Courses on statistics and microeconomics"
 
     <div class="course">
       <h3><a href="https://ou-public.courseleaf.com/courses/econ/" target="_blank" rel="noopener">Elements of Statistics (ECON 2843)</a></h3>
-      <button class="accordion">Course Description</button>
-      <div class="panel">
-        <p>An introductory statistics course surveying basic statistical techniques with an emphasis on business and economic applications, aimed at improving students&rsquo; analytical skills in descriptive and inferential statistics.</p>
-      </div>
       <div class="materials">
         <a href="/Syllabus_ECON_2843.pdf">Syllabus</a> &nbsp;&middot;&nbsp;
         Reflection surveys:
@@ -142,10 +139,6 @@ description: "Courses on statistics and microeconomics"
 
     <div class="course">
       <h3><a href="https://ou-public.courseleaf.com/courses/econ/" target="_blank" rel="noopener">Principles of Economics&ndash;Micro (ECON 1123)</a></h3>
-      <button class="accordion">Course Description</button>
-      <div class="panel">
-        <p>An introduction to basic microeconomic concepts, preparing students to understand microeconomic theory and its applications, work with equilibrium graphs, and relate economic principles to real-world situations.</p>
-      </div>
       <div class="materials">
         <a href="/Syllabus_ECON_1123.pdf">Syllabus</a>
       </div>
@@ -159,10 +152,10 @@ description: "Courses on statistics and microeconomics"
     <ul class="talist">
       <li>Intermediate Microeconomic Theory (ECON 3113)</li>
       <li>Labor Problems (ECON 3513)</li>
-      <li>Labor Economics I (ECON 6433) &mdash; doctoral</li>
+      <li>Labor Economics I (ECON 6433, PhD)</li>
       <li>The Economics of Discrimination (ECON 4513)</li>
       <li>Introduction to Applied Econometrics (ECON 4233)</li>
-      <li>Econometrics II (ECON 5243) &mdash; doctoral</li>
+      <li>Econometrics II (ECON 5243, PhD)</li>
     </ul>
     <div class="tnote">All at the University of Oklahoma.</div>
   </div>
