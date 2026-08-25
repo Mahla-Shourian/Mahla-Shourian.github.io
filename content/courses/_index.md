@@ -90,8 +90,7 @@ description: "Courses on statistics and microeconomics"
     <ul class="upcoming-list">
       <li>
         <span class="name">Elements of Statistics (ECON 2843)</span>
-        <span class="term">Fall 2026</span>
-        <div class="materials"><a href="/Syllabus_ECON_2843_Fall2026.pdf">Syllabus</a></div>
+        <span class="term">Fall 2026: <a href="/Syllabus_ECON_2843_Fall2026.pdf">Syllabus</a></span>
       </li>
       <li>
         <span class="name">Principles of Economics&ndash;Micro (ECON 1123)</span>
