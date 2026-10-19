@@ -55,7 +55,7 @@ description: "Working Papers by Mahla Shourian"
 
 
 
-### [The Relative Wage and Marriage after 2010: A Comment on Shenhav (2021)](/Shourian_Ghosh_RelativeWage_Marriage_Comment_Shenhav.pdf)
+### [The Relative Wage and Marriage after 2010: A Comment on Shenhav (2021)](/Shourian_Ghosh_RelativeWageMarriage_CommentShenhav.pdf)
 **Co-author:** Pallab Ghosh  
 **Draft:** August 2026  
 <details>
