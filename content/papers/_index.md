@@ -55,6 +55,17 @@ description: "Working Papers by Mahla Shourian"
 
 
 
+### [A Slow Burn: The Opioid Epidemic and the Rise in Teen Fertility](/Shourian_Ghosh_OpioidTeenFertility.pdf)
+**Co-author:** Pallab Ghosh  
+**Draft:** April 2026  
+<details>
+  <summary>Abstract [+]</summary>
+  <p>In this article, we establish a causal connection between the U.S. opioid epidemic and teen birth rates, a relationship that the existing literature on opioids and fertility has left unexplored. Drawing on the identification strategy of Arteaga and Barone (2025), we exploit the fact that OxyContin was initially approved and marketed for cancer pain in 1996, so that areas with higher pre-1996 cancer mortality rates received disproportionately greater opioid exposure. Using an annual panel of 621 commuting zones over 1990–2020 with commuting zone and state-by-year fixed effects, we find a delayed and escalating effect on teen fertility. Teen birth rates in more exposed areas show no differential trend through 2000, then increase by 2.5 births per 1,000 women aged 15–19 during 2001–2004, peak at 4.2 per 1,000 during 2005–2007, and remain elevated at 3.5 per 1,000 during 2008–2014. The peak effect represents a 10% increase relative to the sample mean. Heterogeneous effects are largest in commuting zones with high Black population shares and concentrated in the South and West. Complementary stacked first-difference estimates using Census/ACS data confirm that opioid exposure increased general fertility. We investigate ten potential mechanism channels and find that seven produce results consistent with theoretical predictions. The delayed dynamic of these results points to slow-acting community-level mechanisms including intergenerational transmission of disadvantage, cumulative erosion of parental supervision, and deepening economic despair that reduced the perceived opportunity cost of early childbearing.</p>
+</details>
+
+
+
+
 ### [The Relative Wage and Marriage after 2010: A Comment on Shenhav (2021)](/Shourian_Ghosh_RelativeWageMarriage_CommentShenhav.pdf)
 **Co-author:** Pallab Ghosh  
 **Draft:** August 2026  
